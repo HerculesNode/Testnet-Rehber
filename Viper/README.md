@@ -1,6 +1,6 @@
 ### Herculesnode Viper Güncelleme
 
-### işlemleri viper bloklarının aktığı screen de yapabilirsiniz. screen içine girdikten sorna ctry c ile durdurup devam ediniz.
+### işlemleri viper bloklarının aktığı screen de yapabilirsiniz. screen içine girdikten sonra ctry c ile durdurup devam ediniz.
 ### Eğer jail iseniz "viper servicers unjail <operatorAddr> <fromAddr> testnet" kodu ile unjail yapın.
 
 
@@ -17,7 +17,7 @@ rm -rf /usr/local/bin/viper
 ```
 
 ```
-sudo wget -O  /usr/local/bin/  https://github.com/HerculesNode/Testnet-Rehber/blob/main/Viper/viper.tgz
+sudo wget -O  /usr/local/bin/viper.tgz  https://github.com/HerculesNode/Testnet-Rehber/raw/main/Viper/viper.tgz
 ```
 
 ```
