@@ -1,6 +1,6 @@
 ### Herculesnode Viper Güncelleme
 
-### işlemleri viper bloklarının aktığı screen de yapabilirsiniz. screen içine girdikten sonra ctry c ile durdurup devam ediniz.
+### İşlemleri viper bloklarının aktığı screen de yapabilirsiniz. Screen içine girdikten sonra ctry c ile durdurup devam ediniz.
 ### Eğer jail iseniz "viper servicers unjail <operatorAddr> <fromAddr> testnet" kodu ile unjail yapın.
 
 
