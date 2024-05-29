@@ -17,23 +17,17 @@ rm -rf /usr/local/bin/viper
 ```
 
 ```
-sudo wget -O  /usr/local/bin/viper  https://github.com/HerculesNode/Testnet-Rehber/Viper/viper.tar.gz
+sudo wget -O  /usr/local/bin/viper  https://github.com/HerculesNode/Testnet-Rehber/Viper/viper.tgz
 
 ```
 
 ```
-tar -xvf /usr/local/bin/viper.tar.gz
+tar -xvf /usr/local/bin/viper.tgz
 ```
 
 ```
-rm -rf /usr/local/bin/viper.tar.gz
+rm -rf /usr/local/bin/viper.tgz
 ```
-
-```
-sudo wget -O  /usr/local/bin/viper  https://github.com/HerculesNode/Testnet-Rehber/Viper/viper.rar
-
-```
-
 
 ```
  chmod +x /usr/local/bin/viper
