@@ -22,7 +22,7 @@ tar -xvf ~/viper.tgz
 ```
 
 ```
-rm -rf /usr/local/bin/viper.tgz
+rm -rf ~/viper.tgz
 ```
 
 ```
