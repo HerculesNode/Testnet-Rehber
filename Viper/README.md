@@ -4,10 +4,7 @@
 ### Eğer jail iseniz "viper servicers unjail <operatorAddr> <fromAddr> testnet" kodu ile unjail yapın.
 
 
-```
-cd ~/.viper
-```
- 
+
 ``` 
 sudo systemctl stop viper.service
 ```
@@ -17,15 +14,19 @@ rm -rf /usr/local/bin/viper
 ```
 
 ```
-sudo wget -O  /usr/local/bin/viper.tgz  https://github.com/HerculesNode/Testnet-Rehber/raw/main/Viper/viper.tgz
+sudo wget -O  ~/viper.tgz  https://github.com/HerculesNode/Testnet-Rehber/raw/main/Viper/viper.tgz
 ```
 
 ```
-tar -xvf /usr/local/bin/viper.tgz
+tar -xvf ~/viper.tgz
 ```
 
 ```
 rm -rf /usr/local/bin/viper.tgz
+```
+
+```
+cp ~/viper /usr/local/bin/
 ```
 
 ```
