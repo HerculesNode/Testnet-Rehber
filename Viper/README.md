@@ -17,8 +17,7 @@ rm -rf /usr/local/bin/viper
 ```
 
 ```
-sudo wget -O  /usr/local/bin/viper  https://github.com/HerculesNode/Testnet-Rehber/Viper/viper.tgz
-
+sudo wget -O  /usr/local/bin/  https://github.com/HerculesNode/Testnet-Rehber/blob/main/Viper/viper.tgz
 ```
 
 ```
