@@ -30,7 +30,7 @@ cp ~/viper /usr/local/bin/
 ```
 
 ```
- chmod +x /usr/local/bin/viper
+chmod +x /usr/local/bin/viper
  ```
 
 ```
