@@ -326,7 +326,7 @@ initiad q mstaking validators -o json --limit=1000 \
 ## 🟢 blok kontrol
 
 ```shell
-local_height=$(initiad status | jq -r .sync_info.latest_block_height); network_height=$(curl -s https://rpc-initia-testnet.trusted-point.com/status | jq -r .result.sync_info.latest_block_height); blocks_left=$((network_height - local_height)); echo "Your node height: $local_height"; echo "Network height: $network_height"; echo "Blocks left: $blocks_left"
+local_height=$(initiad status | jq -r .sync_info.latest_block_height); network_height=$(curl -s https://initia-rpc.herculesnode.xyz/status | jq -r .result.sync_info.latest_block_height); blocks_left=$((network_height - local_height)); echo "Your node height: $local_height"; echo "Network height: $network_height"; echo "Blocks left: $blocks_left"
 ```
 
 ## 🟢 Nodu silin
