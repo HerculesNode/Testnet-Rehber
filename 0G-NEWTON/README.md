@@ -245,7 +245,7 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
 ## 🟢 Unjail işlemi
 
 ```shell
-0gchaind tx slashing unjail --from CÜZDAN-ADINIZ --gas=500000 --gas-prices=99999neuron -y
+0gchaind tx slashing unjail --from CÜZDAN-ADINIZ --from herculwallet --gas=500000 --gas-prices=99999ua0gi --node=http://localhost:16657 -y
 ```
 
 ## 🟢 Aktif listeye bakma
