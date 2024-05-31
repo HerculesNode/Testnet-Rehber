@@ -167,7 +167,7 @@ sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"50\"/" $HOME/.initia/co
 sudo systemctl stop initiad
 ```
 ```shell
-wget https://snapshots.tienthuattoan.com/testnet/initia/initia_latest.tar.lz4 -O latest_snapshot.tar.lz4 -O latest_snapshot.tar.lz4
+wget https://snapshots.tienthuattoan.com/testnet/initia/initia_latest.tar.lz4 -O latest_snapshot.tar.lz4
 ```
 
 ```shell
