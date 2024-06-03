@@ -170,3 +170,7 @@ go run cmd/main.go start
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/373cd65e-17ac-48fe-8549-b6c4efb1d724)
 
 
+
+airchains validatoru DOUBLELIFT Teşekkürler..
+
+
