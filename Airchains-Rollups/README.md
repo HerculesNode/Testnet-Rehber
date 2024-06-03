@@ -144,8 +144,7 @@ go run cmd/main.go keys junction --accountName HESAP-İSMİ-YAZIN --accountPath 
 go run cmd/main.go prover v1EVM
 ```
 
-
-- Power başlatın
+- İstasyon Oluşturun
 - Node id bu dosyada bulabilirsiniz .track/config/sequencer.toml
 - HESAP İSMİ YAZIN 
 - /ip4/SUNUCU-İP-YAZ/tcp/2300/p2p/NODE-ID-YAZ  BU KISMI DEĞİŞTİRİN İP ADRESİNİZ VE NODE İD 
@@ -153,6 +152,9 @@ go run cmd/main.go prover v1EVM
 ```shell
 go run cmd/main.go create-station --accountName HESAP-İSMİ-YAZ --accountPath $HOME/.tracks/junction-accounts/keys --jsonRPC "https://airchains-testnet-rpc.cosmonautstakes.com/" --info "EVM Track" --tracks <wallet-address> --bootstrapNode "/ip4/SUNUCU-İP-YAZ/tcp/2300/p2p/NODE-ID-YAZ"
 ```
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/bcc00dfc-3fc3-4588-a06e-ed05d4609de8)
+
 
 - Başlatın
 
