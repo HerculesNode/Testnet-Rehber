@@ -3,6 +3,7 @@
 
 - Availe göre anlatılmıştır.
 - Bir çok key ve memo veriyor hepsini kaydedin.
+- En son /root/.tracks/ dosyasını komple yedek alın
 
 
 ### Linkler
