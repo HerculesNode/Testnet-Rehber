@@ -162,3 +162,11 @@ go run cmd/main.go create-station --accountName HESAP-İSMİ-YAZ --accountPath $
 go run cmd/main.go start
 ```
 
+## 🟢 Puanlara bakın
+
+- Bu adrese gidin Leap Wallet kurun ve air hesabınızın memolarını aktarın bağlanın
+- https://points.airchains.io/
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/373cd65e-17ac-48fe-8549-b6c4efb1d724)
+
+
