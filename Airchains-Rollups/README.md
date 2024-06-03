@@ -1,18 +1,13 @@
 
 ### Airchains ZK-Rollups
 
+- Availe göre anlatılmıştır. 
+
 
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [Hercules Web](https://herculesnode.xyz)
-
-
-## 🟢 DC
-
-- Discord Roles kanalına girim
-
-
 
 
 ## 🟢 Sistem özellikleri
