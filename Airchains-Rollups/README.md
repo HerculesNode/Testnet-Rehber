@@ -1,7 +1,8 @@
 
 ### Airchains ZK-Rollups
 
-- Availe göre anlatılmıştır. 
+- Availe göre anlatılmıştır.
+- Bir çok key ve memo veriyor hepsini kaydedin.
 
 
 ### Linkler
