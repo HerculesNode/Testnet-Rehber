@@ -106,7 +106,7 @@ screen -S avail
 - ctrl + a + d screen çıkın
 
 
-- Buradan Avail kelimelerinizi alın ve Polkadot yada Subwallet aktarın.
+- Buradan Avail kelimelerinizi alın ve Polkadot yada Subwallet aktarın. Kelimeleri kaydedin
 - Faucet token alın  https://faucet.avail.tools
 
 ```shell
@@ -132,13 +132,13 @@ go mod tidy
 ```
 
 - İKİ YER DEĞİŞECEK 
-- DAKEY : AVAIL PUB KEY
+- DAKEY : AVAIL KELİMELER
 - MONİKER : MONİKER İSMİNİZ
 - DA-RPC : avail
 
 
 ```shell
-go run cmd/main.go init --daRpc "avail" --daKey "İLK VERDİĞİ KEYİ YAZ" --daType "avail" --moniker "MONİKER-İSMİNİ-YAZ" --stationRpc "http://127.0.0.1:8545" --stationAPI "http://127.0.0.1:8545" --stationType "evm"
+go run cmd/main.go init --daRpc "http://127.0.0.1:7000" --daKey "İLK VERDİĞİ KEYİ YAZ" --daType "avail" --moniker "MONİKER-İSMİNİ-YAZ" --stationRpc "http://127.0.0.1:8545" --stationAPI "http://127.0.0.1:8545" --stationType "evm"
 ```
 
 - HESAP İSMİ YAZIN 
