@@ -102,6 +102,14 @@ screen -S avail
 
 - ctrl + a + d screen çıkın
 
+
+- Buradan Avail kelimelerinizi alın ve Polkadot yada Subwallet aktarın.
+- Faucet token alın  https://faucet.avail.tools
+
+```shell
+nano /root/.avail/identity/identity.toml
+```
+
 ## 🟢 Track çalıştırın.
 
 - Screen Açın
