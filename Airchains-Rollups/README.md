@@ -132,13 +132,13 @@ go mod tidy
 ```
 
 - İKİ YER DEĞİŞECEK 
-- DAKEY : AVAIL KELİMELER
+- DAKEY : AVAIL PUB KEY
 - MONİKER : MONİKER İSMİNİZ
 - DA-RPC : avail
 
 
 ```shell
-go run cmd/main.go init --daRpc "http://127.0.0.1:7000" --daKey "AVAİL-KELİMELERİ-YAZ" --daType "avail" --moniker "MONİKER-İSMİNİ-YAZ" --stationRpc "http://127.0.0.1:8545" --stationAPI "http://127.0.0.1:8545" --stationType "evm"
+go run cmd/main.go init --daRpc "http://127.0.0.1:7000" --daKey "AVAİL-PUB-KEY" --daType "avail" --moniker "MONİKER-İSMİNİ-YAZ" --stationRpc "http://127.0.0.1:8545" --stationAPI "http://127.0.0.1:8545" --stationType "evm"
 ```
 
 - HESAP İSMİ YAZIN 
