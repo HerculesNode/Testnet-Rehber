@@ -159,12 +159,18 @@ go run cmd/main.go prover v1EVM
 
 - İstasyon Oluşturun
 - Node id bu dosyada bulabilirsiniz .track/config/sequencer.toml
-- HESAP İSMİ YAZIN 
-- CÜZDANINIZI YAZINAir cüzdanınızı yazın 
-- /ip4/SUNUCU-İP-YAZ/tcp/2300/p2p/NODE-ID-YAZ  BU KISMI DEĞİŞTİRİN İP ADRESİNİZ VE NODE İD 
+- CÜZDAN İSMİNİZ
+- CÜZDANINIZI YAZIN Air cüzdanınızı yazın 
+- /ip4/SUNUCU-İP-YAZ/tcp/2300/p2p/NODE-ID-YAZ  BU KISMI DEĞİŞTİRİN İP ADRESİNİZ VE NODE İD
 
 ```shell
-go run cmd/main.go create-station --accountName HESAP-İSMİ-YAZ --accountPath $HOME/.tracks/junction-accounts/keys --jsonRPC "https://airchains-testnet-rpc.cosmonautstakes.com/" --info "EVM Track" --tracks CÜZDANINIZI-YAZIN --bootstrapNode "/ip4/SUNUCU-İP-YAZ/tcp/2300/p2p/NODE-ID-YAZ"
+nano /root/.tracks/config/sequencer.toml
+```
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/b132d4bf-812c-4469-9200-d107096b3dd5)
+
+
+```shell
+go run cmd/main.go create-station --accountName CÜZDAN-İSMİNİZ --accountPath $HOME/.tracks/junction-accounts/keys --jsonRPC "https://airchains-testnet-rpc.cosmonautstakes.com/" --info "EVM Track" --tracks AİR-CÜZDANINIZI-YAZIN --bootstrapNode "/ip4/SUNUCU-İP-YAZ/tcp/2300/p2p/NODE-ID-YAZ"
 ```
 
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/bcc00dfc-3fc3-4588-a06e-ed05d4609de8)
