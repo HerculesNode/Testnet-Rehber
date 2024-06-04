@@ -161,11 +161,11 @@ go run cmd/main.go prover v1EVM
 - Node id bu dosyada bulabilirsiniz .track/config/sequencer.toml
 - CÜZDAN İSMİNİZ
 - CÜZDANINIZI YAZIN Air cüzdanınızı yazın 
-- /ip4/SUNUCU-İP-YAZ/tcp/2300/p2p/NODE-ID-YAZ  BU KISMI DEĞİŞTİRİN İP ADRESİNİZ VE NODE İD
 
-```shell
-nano /root/.tracks/config/sequencer.toml
-```
+- /ip4/SUNUCU-İP-YAZ/tcp/2300/p2p/NODE-ID-YAZ  BU KISMI DEĞİŞTİRİN İP ADRESİNİZ VE NODE İD aşağıdaki sequencer.toml içnde bulabilirsiniz.
+
+`nano /root/.tracks/config/sequencer.toml`
+
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/b132d4bf-812c-4469-9200-d107096b3dd5)
 
 
