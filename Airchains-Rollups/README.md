@@ -76,6 +76,9 @@ go mod tidy
 /bin/bash ./scripts/local-start.sh
 ```
 
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/7b3d993f-6a78-4b49-a87f-744b8cf289a8)
+
+
 
 - Key alın bir yere kaydedin 
 
