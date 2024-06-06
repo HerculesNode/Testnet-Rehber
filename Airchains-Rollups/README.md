@@ -215,7 +215,10 @@ go run cmd/main.go start
 - Bu adrese gidin Leap Wallet kurun ve air hesabınızın memolarını aktarın bağlanın
 - https://points.airchains.io/
 
-![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/373cd65e-17ac-48fe-8549-b6c4efb1d724)
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/69a529a8-d1cb-4a1c-b359-877dfc84413c)
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/566922af-53fb-4dd6-8e3c-4dd58add5e72)
+
 
 
 
