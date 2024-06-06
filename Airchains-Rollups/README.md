@@ -88,6 +88,31 @@ go mod tidy
 
 - ctrl + a + d screen çıkın
 
+- hata alırsanız port değiştirin
+
+### Port Ayarları
+```
+echo "export G_PORT="16"" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+```
+```
+sed -i.bak -e "s%:1317%:${G_PORT}317%g;
+s%:8080%:${G_PORT}080%g;
+s%:9090%:${G_PORT}090%g;
+s%:9091%:${G_PORT}091%g;
+s%:8545%:${G_PORT}545%g;
+s%:8546%:${G_PORT}546%g;
+s%:6065%:${G_PORT}065%g" $HOME/.evmosd/config/app.toml
+```
+```
+sed -i.bak -e "s%:26658%:${G_PORT}658%g;
+s%:26657%:${G_PORT}657%g;
+s%:6060%:${G_PORT}060%g;
+s%:26656%:${G_PORT}656%g;
+s%^external_address = \"\"%external_address = \"$(wget -qO- eth0.me):${G_PORT}656\"%;
+s%:26660%:${G_PORT}660%g" $HOME/.evmosd/config/config.toml
+```
+
 
 ## 🟢 Avail çalıştırın.
 
