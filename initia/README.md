@@ -4,7 +4,7 @@
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [faucet](https://faucet.testnet.initia.xyz/)
- * [ScannerX Explorer](https://explorer.scannerx.net/Initia/staking)
+ * [HerculesNode Explorer](https://explorer.herculesnode.xyz/Initia/staking)
  * [görevler](https://initia-xyz.notion.site/The-Initiation-Validator-Tasks-6d88ab0034644473907435662f9285b3)
  * [Form](https://docs.google.com/forms/d/e/1FAIpQLSc09Kl6mXyZHOL12n_6IUA8MCcL6OqzTqsoZn9N8gpptoeU_Q/viewform)
 
@@ -361,4 +361,11 @@ mv /root/initia/build/initiad $HOME/.initia/cosmovisor/genesis/bin/
 sudo systemctl daemon-reload
 sudo systemctl restart initiad
 sudo journalctl -u initiad.service -f --no-hostname -o cat
+```
+
+
+## 🟢 Oy kullanma ( Burada 125 yazan oy numarası Yes/No diyerek kullanabilirsiniz.
+
+```shell
+initiad tx gov vote 125 yes --from CÜZDANINIZ --chain-id initiation-1 --gas-adjustment 1.4 --gas 2000000 --fees 563000move/944f8dd8dc49f96c25fea9849f16436dcfa6d564eec802f3ef7f8b3ea85368ff --node=https://initia-rpc.herculesnode.xyz -y
 ```
