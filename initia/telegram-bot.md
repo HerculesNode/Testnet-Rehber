@@ -114,10 +114,10 @@ python3 herculesnode.py
 
 ## 🟢 Telegram botumuza gelelim
 
-```shell
-chmod +x herculesnode.py
-```
+- /start komutu verelim
 
-```shell
-python3 herculesnode.py
-```
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/87c554ca-7855-497a-ba76-59f5700e1a75)
+
+
+- /chech komutu verelim
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/678226bb-1f46-4744-ae71-783745d25bbd)
