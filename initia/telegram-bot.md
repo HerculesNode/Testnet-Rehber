@@ -38,16 +38,19 @@ nano herculesnode.py
 import os
 import requests
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, CallbackContext
+from telegram.ext import Application, CommandHandler, ContextTypes
 import subprocess
 
+# Telegram bot tokenınızı buraya ekleyin
 TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+
 
 def get_last_block_height():
     url = "https://b545809c-5562-4e60-b5a1-22e83df57748.initiation-1.mesa-rpc.ue1-prod.newmetric.xyz/abci_info?"
     response = requests.get(url)
     data = response.json()
     return int(data['result']['response']['last_block_height'])
+
 
 def get_latest_block_height():
     result = subprocess.run(['initiad', 'status'], capture_output=True, text=True)
@@ -59,21 +62,23 @@ def get_latest_block_height():
     else:
         return None
 
-def start(update: Update, context: CallbackContext) -> None:
-    update.message.reply_text('Merhaba! Bu bot blok yüksekliği kontrolü yapar. HerculesNode')
 
-def check_block_heights(update: Update, context: CallbackContext) -> None:
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    await update.message.reply_text('Merhaba! Bu bot blok yüksekliği kontrolü yapar. HerculesNode.')
+
+
+async def check_block_heights(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
         last_block_height = get_last_block_height()
         latest_block_height = get_latest_block_height()
 
         if latest_block_height is None:
-            update.message.reply_text("Sunucuda komut çalıştırılırken bir hata oluştu.")
+            await update.message.reply_text("Sunucuda komut çalıştırılırken bir hata oluştu.")
             return
 
         response_message = (
-            f"Last Block Height: {last_block_height}\n"
-            f"Latest Block Height: {latest_block_height}\n"
+            f"Initia Son Block: {last_block_height}\n"
+            f"Sunucu Son Block: {latest_block_height}\n"
         )
 
         if last_block_height != latest_block_height:
@@ -81,23 +86,25 @@ def check_block_heights(update: Update, context: CallbackContext) -> None:
         else:
             response_message += "Blok yükseklikleri eşit."
 
-        update.message.reply_text(response_message)
+        await update.message.reply_text(response_message)
 
     except Exception as e:
-        update.message.reply_text(f"Bir hata oluştu: {e}")
+        await update.message.reply_text(f"Bir hata oluştu: {e}")
 
 def main() -> None:
-    updater = Updater(TOKEN)
-    dispatcher = updater.dispatcher
+    # Application oluştur
+    application = Application.builder().token(TOKEN).build()
 
-    dispatcher.add_handler(CommandHandler("start", start))
-    dispatcher.add_handler(CommandHandler("check", check_block_heights))
+    # Komut işleyicilerini ekle
+    application.add_handler(CommandHandler("start", start))
+    application.add_handler(CommandHandler("check", check_block_heights))
 
-    updater.start_polling()
-    updater.idle()
+    # Botu çalıştır
+    application.run_polling()
 
 if __name__ == '__main__':
     main()
+
 
 ```
 
