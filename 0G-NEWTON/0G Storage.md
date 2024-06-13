@@ -1,19 +1,9 @@
-![image](https://github.com/HerculesNode/0G-Newton/assets/101635385/9f3bd440-d371-47b5-afcd-f0d0f4e342d1)
-
-
-
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [OG Discord](https://discord.gg/0glabs)
  * [Hercules Explorer](https://explorer.herculesnode.xyz/0G-Testnet/staking)
  * [Hercules web](https://herculesnode.xyz)
-
-## 🟢 rol alma
-
-- Discord Roles kanalına gidin ve rolleri alın
-
-![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/c2ddbff1-1989-4f63-8b20-cf3ebb368442)
 
 
 ## 🟢 Sistem özellikleri
@@ -154,4 +144,15 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 ## 🟢 Loglarda bir hata alırsanız aşağıdaki kodu uygulayın. Çıktığı starage-node kanalına gönderin.
 ```shell
 echo -e "LOG_CONTRACT_ADDRESS: $LOG_CONTRACT_ADDRESS\nMINE_CONTRACT: $MINE_CONTRACT\nZGS_LOG_SYNC_BLOCK: $ZGS_LOG_SYNC_BLOCK\nBLOCKCHAIN_RPC_ENDPOINT: $BLOCKCHAIN_RPC_ENDPOINT\n\n\033[33mby Nodebrand.\033[0m"
+```
+
+## 🟢 update v.0.3.0
+```shell
+cd $HOME/0g-storage-node
+git fetch --tags
+git checkout v0.3.0
+git submodule update --init
+cargo build --release
+sudo mv $HOME/0g-storage-node/target/release/zgs_node /usr/local/bin
+zgs_node --version
 ```
