@@ -6,8 +6,8 @@
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [OG Discord](https://discord.gg/0glabs)
- * [ScannerX Explorer](https://explorer.scannerx.net/0G-Testnet/staking)
-
+ * [Hercules Explorer](https://explorer.herculesnode.xyz/0G-Testnet/staking)
+ * [Hercules web](https://herculesnode.xyz)
 
 ## 🟢 rol alma
 
