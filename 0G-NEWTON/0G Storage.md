@@ -81,9 +81,13 @@ sed -i 's|^miner_key = ""|miner_key = "'"$PRIVATE_KEY"'"|' $HOME/0g-storage-node
 ```
 
 Network name : 0g Chain Testnet
+
 New RPC URL : https://rpc-testnet.0g.ai
+
 Chain ID : 16600
+
 Currency symbol: A0GI
+
 Block explorer URL (Optional) : https://scan-testnet.0g.ai/
 
 
