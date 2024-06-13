@@ -19,7 +19,7 @@ Description=Initia Slinky Oracle
 After=network-online.target
 [Service]
 User=$USER
-ExecStart=$(which slinky) --oracle-config-path $HOME/slinky/config/core/oracle.json --market-map-endpoint 127.0.0.1:15090
+ExecStart=$(which slinky) --oracle-config-path $HOME/slinky/config/core/oracle.json --market-map-endpoint 127.0.0.1:9090
 Restart=on-failure
 RestartSec=30
 LimitNOFILE=65535
