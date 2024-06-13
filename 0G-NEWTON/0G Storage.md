@@ -19,7 +19,7 @@
 ## 🟢 Sistem özellikleri
 | Ram | cpu     | disk                      |
 | :-------- | :------- | :-------------------------------- |
-| `8GB`      | `4Core` | `500+ SSD` |
+| `16GB`      | `4Core` | `500+ SSD` |
 
 - Bunlar max gereksinim daha düşükte çalıştırabilir !
 
