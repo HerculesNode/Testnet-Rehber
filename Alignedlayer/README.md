@@ -1,6 +1,4 @@
 
-### Airchains ZK-Rollups
-
 
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
@@ -57,6 +55,11 @@ aligned submit \
 --conn wss://batcher.alignedlayer.com
 ```
 
+
+Twitter 
 ```shell
-git clone https://github.com/availproject/availup.git
+aligned verify-proof-onchain \
+--aligned-verification-data ~/aligned_verification_data/*.json \
+--rpc https://ethereum-holesky-rpc.publicnode.com \
+--chain holesky
 ```
