@@ -63,3 +63,23 @@ aligned verify-proof-onchain \
 --rpc https://ethereum-holesky-rpc.publicnode.com \
 --chain holesky
 ```
+
+## 🟢 Twitter hesabınızda paylaşın
+
+Aşağıdaki tx adresine kendi adresinizi yazın
+
+```shell
+Just submitted a proof via @alignedlayer 
+
+I am now #aligned ✅
+https://explorer.alignedlayer.com/batches/0xf8657184e0f7dc58b28f31e051196b44124d411d2a1f7bf511850d01d5090ec4
+```
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/73c05ee7-cf11-419f-b961-44dfd33d8c60)
+
+
+## 🟢 Discord Testnet kanalında x gönderinizin linkini paylaşın
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/cb7f592d-e282-4209-b9a3-e6655dc5ac20)
+
+
