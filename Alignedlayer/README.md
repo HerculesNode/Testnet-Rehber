@@ -55,8 +55,13 @@ aligned submit \
 --conn wss://batcher.alignedlayer.com
 ```
 
+- Bu işlemden sonra size bir çıktı verecek aşağıdaki resimdeki gibi orada tx adresi var onu kopyalayın 
 
-Twitter 
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/63d1c72f-ce18-4b57-8c38-0b4aa01687f6)
+
+
+- Holesky çıktısı
+
 ```shell
 aligned verify-proof-onchain \
 --aligned-verification-data ~/aligned_verification_data/*.json \
