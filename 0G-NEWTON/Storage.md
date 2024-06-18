@@ -146,13 +146,12 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 echo -e "LOG_CONTRACT_ADDRESS: $LOG_CONTRACT_ADDRESS\nMINE_CONTRACT: $MINE_CONTRACT\nZGS_LOG_SYNC_BLOCK: $ZGS_LOG_SYNC_BLOCK\nBLOCKCHAIN_RPC_ENDPOINT: $BLOCKCHAIN_RPC_ENDPOINT\n\n\033[33mby Nodebrand.\033[0m"
 ```
 
-## 🟢 update v.0.3.0
+## 🟢 update v.0.3.1
 ```shell
-cd $HOME/0g-storage-node
-git fetch --tags
-git checkout v0.3.0
+cd $HOME
+git clone -b v0.3.1 https://github.com/0glabs/0g-storage-node.git
+cd 0g-storage-node
 git submodule update --init
 cargo build --release
-sudo mv $HOME/0g-storage-node/target/release/zgs_node /usr/local/bin
-zgs_node --version
+sudo mv "$HOME/0g-storage-node/target/release/zgs_node" /usr/local/bin
 ```
