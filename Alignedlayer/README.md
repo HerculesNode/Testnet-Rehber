@@ -85,6 +85,8 @@ https://explorer.alignedlayer.com/batches/0xf8657184e0f7dc58b28f31e051196b44124d
 
 ## 🟢 Discord Testnet kanalında x gönderinizin linkini paylaşın
 
+Discod : https://discord.gg/alignedlayer
+
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/cb7f592d-e282-4209-b9a3-e6655dc5ac20)
 
 
