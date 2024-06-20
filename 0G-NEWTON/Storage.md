@@ -41,7 +41,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ## 🟢 Dosyaları indirin
 ```shell
 sudo apt install git
-git clone -b v0.3.0 https://github.com/0glabs/0g-storage-node.git
+git clone -b v0.3.1 https://github.com/0glabs/0g-storage-node.git
 ```
 
 ## 🟢 Cargo yükleme
