@@ -8,6 +8,8 @@
  * [Hercules Web](https://herculesnode.com)
  * [Hercules Warpcast](https://warpcast.com/herculesnode)
 
+ * Resmi döküman : https://www.thehubble.xyz/intro/hubble.html
+
 
 ## 🟢 Ön Bilgilendirme
 - Bu işlem ile Farcaster üzerinde bir Node çalıştırabilirsiniz. 
