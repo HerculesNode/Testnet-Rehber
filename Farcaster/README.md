@@ -93,10 +93,15 @@ curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 
 - Burada sizden ETH , OP mainnet ağında RPC isteyecek.  Bunu https://app.infura.io/dashboard ve https://www.alchemy.com/  buradan temin edebilirsiniz. 
 
-- 1) ETH mainnet RPC linkini girin
-- 2) Op Mainnet RPC linkini girin
-- 3) Warpcast FID numaranızı girin
+####  ETH mainnet RPC linkini girin
+#### Op Mainnet RPC linkini girin
+ 
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/28d9878f-f14b-489c-802e-577af3035bf0)
 
+
+#### Warpcast FID numaranızı girin Profiliniz sağ üstten 3 çizgi ve About butonuna basın çıkıyor.
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/24432e01-c9c7-4a8c-b983-cf373f380082)
 
 
 
