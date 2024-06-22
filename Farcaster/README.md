@@ -37,7 +37,7 @@ sudo apt install screen -y
 ```
 
 ```shell
-source -S warp
+screen -S warp
 ```
 
 
