@@ -107,12 +107,10 @@ curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 
 ## 🟢 Sonuç izleme
 
-- Aşağıdaki gibi çıktı almalısınız. Öncelikle Snap yükleyecek biraz uzun sürüyor
+- Aşağıdaki gibi çıktı almalısınız. Öncelikle Snap yükleyecek biraz uzun sürüyor ondan sonra resimdeki gibi bir ekran gelecek.
 
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/80611013-b51f-4c52-9fed-1284357d430f)
 
-
-- DAha sonra ağ bağlanıyor. 
 
 - Ayrıca grafana ile kontrol edebilirsiniz.  http://SUNUCU-IP:3000 şeklinde
 
