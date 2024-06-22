@@ -6,7 +6,7 @@
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [Hercules Web](https://herculesnode.com)
-
+ * [Hercules Warpcast](https://warpcast.com/herculesnode)
 
 
 ## 🟢 Ön Bilgilendirme
