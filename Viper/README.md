@@ -9,7 +9,7 @@ viper servicers unjail operatorAddr fromAddr testnet
 
 ### Pause durumuna geçtiyse unpause kodu. 
 ``` shell
-"viper servicers unpause operatorAddr fromAddr testnet"
+viper servicers unpause operatorAddr fromAddr testnet
 ```
 
 ### Validator durumunuzu kontrol etmek için bu kodu uygulayın.
