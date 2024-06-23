@@ -93,7 +93,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 ```
 
-- Burada sizden ETH , OP mainnet ağında RPC isteyecek.  Bunu https://app.infura.io/dashboard ve https://www.alchemy.com/  buradan temin edebilirsiniz. 
+- Burada sizden ETH , OP mainnet ağında RPC isteyecek.  
+- Alabileceğiniz yerler :  https://app.infura.io/dashboard ve https://www.alchemy.com/  buradan temin edebilirsiniz. 
 
 #### 1-ETH mainnet RPC linkini girin
 #### 2-Op Mainnet RPC linkini girin
