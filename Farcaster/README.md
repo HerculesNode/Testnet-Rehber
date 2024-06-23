@@ -121,3 +121,32 @@ curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 cd ~/hubble && ./hubble.sh upgrade
 ```
 
+
+## 🟢 Yararlı komutlar
+
+```shell
+cd ~/hubble 
+```
+
+- Durdurma 
+```shell
+./hubble.sh down
+```
+
+- Yeniden başlatma
+
+```shell
+./hubble.sh up
+```
+
+- veritabanı sıfırlama
+
+```shell
+rm -rf .rocks
+```
+
+
+#### Senktonize oldummu ? Bunun için grafana panelinize bakın aşağıdaki resimdeki gibi ise sorun yok %100 gösteriyorsa senkronize oldu demektir. değilse yeniden başlatın
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/dd393a7a-135a-4d2f-95be-f36ec884eb15)
+
