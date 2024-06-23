@@ -1,8 +1,8 @@
 ### Herculesnode Viper 1.5 Güncelleme
 
 ### İşlemleri viper bloklarının aktığı screen de yapabilirsiniz. Screen içine girdikten sonra ctry c ile durdurup devam ediniz.
-### Eğer jail iseniz "viper servicers unjail <operatorAddr> <fromAddr> testnet" kodu ile unjail yapın. aperator addr ile from addr kendi cüzdan adresiniz olacak.
-### viper servicers unpause <operatorAddr> <fromAddr> testnet unpause kodu. 
+### Eğer jail iseniz "viper servicers unjail operatorAddr fromAddr testnet" kodu ile unjail yapın. aperator addr ile from addr kendi cüzdan adresiniz olacak.
+### "viper servicers unpause operatorAddr fromAddr testnet" unpause kodu. 
 
 ### Validator durumunuzu kontrol etmek için bu kodu uygulayın.
 
