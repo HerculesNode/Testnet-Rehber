@@ -115,3 +115,9 @@ curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/1496c07d-c8b2-44ec-86ae-6b5fcada0526)
 
 
+## 🟢 Uükseltme işlemi
+
+```shell
+cd ~/hubble && ./hubble.sh upgrade
+```
+
