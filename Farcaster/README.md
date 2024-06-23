@@ -128,6 +128,12 @@ cd ~/hubble && ./hubble.sh upgrade
 cd ~/hubble 
 ```
 
+- Loglara bakma
+
+```shell
+./hubble.sh logs
+```
+
 - Durdurma 
 ```shell
 ./hubble.sh down
