@@ -121,7 +121,7 @@ curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 - Aşağıdaki kod ile FID doğrumu kontrol edebilirsiniz. 
 
 ```shell
-docker logs hubble-hubble-1 2>&1 | grep "FID"
+docker logs hubble-hubble-1 2>&1 | grep "Hub Operator FID"
 ```
 
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/d0a4598e-b3a4-4ee3-a22b-5319f85c5c4f)
