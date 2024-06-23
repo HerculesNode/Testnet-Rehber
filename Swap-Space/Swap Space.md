@@ -13,15 +13,7 @@
 ## 🟢 Swap Alanının İşlevleri
 ## 1- Bellek Taşması (Memory Overflow): RAM'in tamamı kullanıldığında, swap alanı devreye girerek aktif olmayan süreçlerin belleğini geçici olarak depolar. Bu sayede sistem çökmelerinin ve performans kayıplarının önüne geçilir.
 
-## 2- Hibernation (Uyku Modu): Sistem hibernation moduna geçtiğinde, tüm RAM içeriği swap alanına yazılır. Sistem tekrar açıldığında, RAM'deki veriler swap alanından geri yüklenir.
-
-## 🟢 Swap Alanı Türleri
-Swap Bölümü (Partition): Sabit diskte oluşturulan özel bir bölüm, yalnızca swap için ayrılmıştır. Bu yöntem, genellikle daha hızlıdır ve daha iyi performans sağlar.
-
-## 1- Swap Dosyası: Mevcut bir dosya sistemi üzerinde oluşturulan bir dosya, swap alanı olarak kullanılır. Bu yöntem, daha esnek bir yapı sunar çünkü swap alanını büyütmek veya küçültmek daha kolaydır.
-
-## 2- Swap Alanı Yönetimi
-Ubuntu'da swap alanını yönetmek için birkaç temel komut bulunmaktadır:
+## 2- Swap Dosyası: Mevcut bir dosya sistemi üzerinde oluşturulan bir dosya, swap alanı olarak kullanılır. Bu yöntem, daha esnek bir yapı sunar çünkü swap alanını büyütmek veya küçültmek daha kolaydır.
 
 ## 🟢 Swap Alanı Boyutu Ne Kadar Olmalı?
 Swap alanının boyutu, sistemin kullanım senaryosuna ve RAM miktarına bağlı olarak değişir. Geleneksel olarak, swap alanının boyutu şu şekilde önerilmektedir:
