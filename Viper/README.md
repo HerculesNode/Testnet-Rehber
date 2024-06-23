@@ -1,68 +1,67 @@
-### Herculesnode Viper Güncelleme
+### Herculesnode Viper 1.5 Güncelleme
 
 ### İşlemleri viper bloklarının aktığı screen de yapabilirsiniz. Screen içine girdikten sonra ctry c ile durdurup devam ediniz.
-### Eğer jail iseniz "viper servicers unjail <operatorAddr> <fromAddr> testnet" kodu ile unjail yapın.
+### Eğer jail iseniz "viper servicers unjail <operatorAddr> <fromAddr> testnet" kodu ile unjail yapın. aperator addr ile from addr kendi cüzdan adresiniz olacak.
+### viper servicers unpause <operatorAddr> <fromAddr> testnet unpause kodu. 
+
+### Validator durumunuzu kontrol etmek için bu kodu uygulayın.
+
+``` shell
+curl http://127.0.0.1:26657/status
+```
 
 
-
-``` 
+``` shell
 sudo systemctl stop viper.service
 ```
 
-```
+```shell
 rm -rf /usr/local/bin/viper
 ```
 
-```
-sudo wget -O  ~/viper.tgz  https://github.com/HerculesNode/Testnet-Rehber/raw/main/Viper/viper.tgz
-```
-
-```
-tar -xvf ~/viper.tgz
+```shell
+wget -O /usr/local/bin/viper http://37.120.189.81/viper/viper8
 ```
 
-```
-rm -rf ~/viper.tgz
-```
 
-```
-cp ~/viper /usr/local/bin/
-```
-
-```
+```shell
 chmod +x /usr/local/bin/viper
+```
+
+```shell
+sudo systemctl daemon-reload
  ```
 
-```
-cd ~/.viper
-```
-
-```
-rm -r data
-```
-
-```
-sudo git clone https://github.com/vishruthsk/data.git data
-```
-
-```
-sudo chown -R root ~/.viper/data
-```
-
- 
-```
+```shell
 viper network version
  ```
 
-### AppVersion: PT-0.1.3 olacak
+### AppVersion: PT-0.1.5 olacak
 
-```
-sudo systemctl daemon-reload
+## 🟢 Logları kontrol edin. Eğer wrong block hatası alıyorsanız aşağıdakileri uygulayın. 
+
+## 🟢 Log kontrol. Ctrl + c ile çıkın
+```shell
+journalctl -u viper -f
 ```
 
+```shell
+cd ~/.viper
 ```
-sudo systemctl start viper.service
+
+```shell
+rm -r data
 ```
+
+```shell
+sudo git clone https://github.com/vishruthsk/data.git data
+```
+
+```shell
+sudo chown -R root ~/.viper/data
+```
+
+
 
 ```
 journalctl -u viper -f
