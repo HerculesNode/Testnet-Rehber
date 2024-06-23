@@ -29,12 +29,16 @@ Swap alanının boyutu, sistemin kullanım senaryosuna ve RAM miktarına bağlı
 ## 🟢Ne olmalı
 
 RAM 4 GB veya daha az ise: RAM'in 2 katı.
+
 RAM 4-8 GB arası ise: RAM'in 1.5 katı.
+
 RAM 8-16 GB arası ise: RAM ile aynı boyutta.
+
 RAM 16 GB ve üzeri ise: İhtiyaca göre ayarlanabilir, genellikle RAM'in yarısı kadar yeterlidir.
+
 Ancak, hibernation kullanıyorsanız, swap alanının en az RAM kadar veya daha fazla olması önerilir.
 
-	Ubuntu swap alanı, sistem performansını artırmada ve bellek yönetimini optimize etmede önemli bir rol oynar. Swap alanının doğru yapılandırılması, özellikle sınırlı RAM'e sahip sistemlerde, daha akıcı ve kararlı bir deneyim sunar.
+Ubuntu swap alanı, sistem performansını artırmada ve bellek yönetimini optimize etmede önemli bir rol oynar. Swap alanının doğru yapılandırılması, özellikle sınırlı RAM'e sahip sistemlerde, daha akıcı ve kararlı bir deneyim sunar.
 
 
 
