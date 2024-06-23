@@ -11,22 +11,20 @@
 - Ubuntu ve diğer Linux dağıtımlarında, swap alanı (veya takas alanı), bellek yönetimi için kullanılan bir depolama alanıdır. Swap alanı, sistemin RAM'i (Random Access Memory) dolduğunda, geçici olarak bellek yükünü hafifletmek için kullanılır. Bu alan, fiziksel RAM'in yeterli olmadığı durumlarda sistemin daha stabil çalışmasını sağlar.
 
 ## 🟢 Swap Alanının İşlevleri
-## 🟢 Bellek Taşması (Memory Overflow): RAM'in tamamı kullanıldığında, swap alanı devreye girerek aktif olmayan süreçlerin belleğini geçici olarak depolar. Bu sayede sistem çökmelerinin ve performans kayıplarının önüne geçilir.
+## 1- Bellek Taşması (Memory Overflow): RAM'in tamamı kullanıldığında, swap alanı devreye girerek aktif olmayan süreçlerin belleğini geçici olarak depolar. Bu sayede sistem çökmelerinin ve performans kayıplarının önüne geçilir.
 
-## 🟢 Hibernation (Uyku Modu): Sistem hibernation moduna geçtiğinde, tüm RAM içeriği swap alanına yazılır. Sistem tekrar açıldığında, RAM'deki veriler swap alanından geri yüklenir.
+## 2- Hibernation (Uyku Modu): Sistem hibernation moduna geçtiğinde, tüm RAM içeriği swap alanına yazılır. Sistem tekrar açıldığında, RAM'deki veriler swap alanından geri yüklenir.
 
 ## 🟢 Swap Alanı Türleri
 Swap Bölümü (Partition): Sabit diskte oluşturulan özel bir bölüm, yalnızca swap için ayrılmıştır. Bu yöntem, genellikle daha hızlıdır ve daha iyi performans sağlar.
 
-## 🟢 Swap Dosyası: Mevcut bir dosya sistemi üzerinde oluşturulan bir dosya, swap alanı olarak kullanılır. Bu yöntem, daha esnek bir yapı sunar çünkü swap alanını büyütmek veya küçültmek daha kolaydır.
+## 1- Swap Dosyası: Mevcut bir dosya sistemi üzerinde oluşturulan bir dosya, swap alanı olarak kullanılır. Bu yöntem, daha esnek bir yapı sunar çünkü swap alanını büyütmek veya küçültmek daha kolaydır.
 
-## 🟢 Swap Alanı Yönetimi
+## 2- Swap Alanı Yönetimi
 Ubuntu'da swap alanını yönetmek için birkaç temel komut bulunmaktadır:
 
 ## 🟢 Swap Alanı Boyutu Ne Kadar Olmalı?
 Swap alanının boyutu, sistemin kullanım senaryosuna ve RAM miktarına bağlı olarak değişir. Geleneksel olarak, swap alanının boyutu şu şekilde önerilmektedir:
-
-## 🟢Ne olmalı
 
 RAM 4 GB veya daha az ise: RAM'in 2 katı.
 
@@ -49,7 +47,7 @@ Ubuntu swap alanı, sistem performansını artırmada ve bellek yönetimini opti
 swapon --show
 ```
 
-## 🟢 Swap Alanı Eklemek (Dosya Olarak): Bu komutlar, 2 GB boyutunda bir swap dosyası oluşturur ve etkinleştirir.2G yerine tavsiye edilen biktar girilebilir. 8 GB ram var ise 12GB vb.
+## 🟢 Swap Alanı Eklemek (Dosya Olarak): Bu komutlar, 2 GB boyutunda bir swap dosyası oluşturur ve etkinleştirir.2G yerine tavsiye edilen miktar girilebilir. 8 GB ram var ise 12GB vb.
 
 
 ```shell
