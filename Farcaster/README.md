@@ -177,6 +177,12 @@ cd ~/hubble
 rm -rf .rocks
 ```
 
+- FID isminize bakma
+
+```shell
+docker logs hubble-hubble-1 2>&1 | grep "Hub Operator FID"
+```
+
 
 #### Senktonize oldummu ? Bunun için grafana panelinize bakın aşağıdaki resimdeki gibi ise sorun yok %100 gösteriyorsa senkronize oldu demektir. değilse yeniden başlatın
 
