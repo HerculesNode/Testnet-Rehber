@@ -18,9 +18,9 @@
 
 
 ## 🟢 özellik
-- 16GB Ram fakat gözlemlediğime göre 16GB ram kullanmıyor daha az olabilir. Kurulumda 16GB istiyor 
+- 16GB Ram istiyor. Fakat gözlemlediğime göre 16GB ram kullanmıyor daha az olabilir. Kurulumda 16GB istiyor 
 - 4CPU
-- 100Gb alan fazlasıyla yeter
+- 50Gb alan fazlasıyla yeter
 
 
 
