@@ -116,7 +116,12 @@ curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 
 ## 🟢 Sonuç izleme
 
+
 - Aşağıdaki gibi çıktı almalısınız. Öncelikle Snap yükleyecek biraz uzun sürüyor ondan sonra resimdeki gibi bir ekran gelecek.
+- Başlattığınızda bu şekilde isminizi görmelisiniz. 
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/d0a4598e-b3a4-4ee3-a22b-5319f85c5c4f)
+
 
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/80611013-b51f-4c52-9fed-1284357d430f)
 
