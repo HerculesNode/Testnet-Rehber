@@ -21,6 +21,7 @@
 - 16GB Ram istiyor. Fakat gözlemlediğime göre 16GB ram kullanmıyor daha az olabilir. Kurulumda 16GB istiyor 
 - 4CPU
 - 50Gb alan fazlasıyla yeter
+- Port 2281 - 2283 - Grafana için : 3000
 
 
 
