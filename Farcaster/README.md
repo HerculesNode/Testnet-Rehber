@@ -134,6 +134,12 @@ docker logs hubble-hubble-1 2>&1 | grep "Hub Operator FID"
 
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/1496c07d-c8b2-44ec-86ae-6b5fcada0526)
 
+## 🟢 Web üzerinden kontrol edin. FID numaranız çıkıyormu Aşağıdaki şekilde explorer üzerinden bakın. 
+
+http://SUNUCU-IP-ADRESİNİZ/v1/info?dbstats=1
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/0ce7f1fe-5e02-4641-955b-44bcf040de13)
+
 
 ## 🟢 Sağlıklı bir kurulumda aşağıdaki gibi dosyalar olması gerekiyor. 
 
