@@ -118,7 +118,7 @@ curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 
 
 - Aşağıdaki gibi çıktı almalısınız. Öncelikle Snap yükleyecek biraz uzun sürüyor ondan sonra resimdeki gibi bir ekran gelecek.
-- Başlattığınızda bu şekilde isminizi görmelisiniz.
+- Aşağıdaki kod ile FID doğrumu kontrol edebilirsiniz. 
 
 ```shell
 docker logs hubble-hubble-1 2>&1 | grep "FID"
