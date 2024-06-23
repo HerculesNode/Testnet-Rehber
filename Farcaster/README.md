@@ -46,6 +46,12 @@ screen -S warp
 
 ## 🟢 Docker indirelim	
 
+- Docker kurulu ise önce docker --version komutuyla versiyon kontrolü yapın. Resimdeki gibiyse kurmanıza gerek yok. Değilse aşağıdaki komutlar ile kurun
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/f7f9d70c-422b-4839-a8ad-e0daa12f4977)
+
+
+
 ```shell
 sudo apt-get update
 sudo apt-get install \
