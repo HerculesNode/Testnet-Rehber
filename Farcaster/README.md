@@ -122,7 +122,7 @@ curl -sSL https://download.thehubble.xyz/bootstrap.sh | bash
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/1496c07d-c8b2-44ec-86ae-6b5fcada0526)
 
 
-- Sağlıklı bir kurulumda aşağıdaki gibi dosyalar olması gerekiyor. 
+## 🟢 Sağlıklı bir kurulumda aşağıdaki gibi dosyalar olması gerekiyor. 
 
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/cec5a452-e898-4801-a370-c39ea0bc96b1)
 
