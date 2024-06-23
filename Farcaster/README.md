@@ -8,7 +8,7 @@
  * [Hercules Web](https://herculesnode.com)
  * [Hercules Warpcast](https://warpcast.com/herculesnode)
 
- * Resmi döküman : https://www.thehubble.xyz/intro/hubble.html
+ * Resmi döküman : https://docs.farcaster.xyz/hubble/hubble - https://www.thehubble.xyz/intro/hubble.html
 
 
 ## 🟢 Ön Bilgilendirme
