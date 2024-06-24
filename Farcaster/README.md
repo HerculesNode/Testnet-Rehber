@@ -198,3 +198,13 @@ docker logs hubble-hubble-1 2>&1 | grep "Hub Operator FID"
 
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/dd393a7a-135a-4d2f-95be-f36ec884eb15)
 
+
+#### False çıktı alıyormusunuz kontrol edin.
+
+```shell
+curl http://127.0.0.1:2281/v1/info?dbstats=1 | jq
+```
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/82d4dd8f-944a-46fc-b32f-fa66af9791b3)
+
+
