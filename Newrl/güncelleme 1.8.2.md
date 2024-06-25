@@ -9,6 +9,9 @@
 
 ## 🟢 1.8.2 güncellemesi. Normalde otomatik güncelleme yapıyor. Bazı nodeler güncellenmemiş. Öncelikle aşağıdaki adresten IP aratarak versiyon 1.8.2 mi bakın. Eğer daha düşükse aşağıdaki kodları uygulayın.
 
+```shell
+https://newrlscan.io/
+```
 
 
 ```shell
