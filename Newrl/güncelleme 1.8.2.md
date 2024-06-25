@@ -30,8 +30,13 @@ cd newrl
 ./scripts/install.sh mainnet
 ```
 
-## 🟢 Eğer install.sh çalıştırdıktan sonra loglarda requirements.txt şeklinde bir hata verip versiyon 1.8.2 olmazsa sunucuda newrl klasörü içindeki requirements.txt dosyasını rm -rf   "/root/newrl/requirements.txt"
-ile dosyayı silin tekrar bir üstteki install kodunu çalıştırın.
+## 🟢 Eğer install.sh çalıştırdıktan sonra loglarda requirements.txt şeklinde bir hata verip versiyon 1.8.2 olmazsa sunucuda newrl klasörü içindeki requirements.txt dosyasını silin tekrar install kodunu çalıştırın.
+
+```shell
+rm -rf   "/root/newrl/requirements.txt"
+```
+
+## 🟢  Yukarıdaki hatayı vermiyorsa aşağıdaki koddan devam edebilirsiniz.
 
 ```shell
 ./scripts/start.sh mainnet
