@@ -15,7 +15,7 @@
 | RAM	| 4 GB |
 | Storage	| 40++ GB SSD |
 
-## 🟢 Nubit dashboard:
+## 🟢 Nubit dashboard: En alltaki kod ile pubkey alın. Node 15 dakikadan fazla çalışsın. Sonra kodu step 3 te verify yapın.
 
 ```shell
 https://alpha.nubit.org/
