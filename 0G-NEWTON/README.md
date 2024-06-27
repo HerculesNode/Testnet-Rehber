@@ -218,14 +218,16 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
   --pubkey=$(0gchaind tendermint show-validator) \
   --moniker=MONİKER-YAZ \
   --chain-id=zgtendermint_16600-2 \
-  --commission-rate=0.05 \
-  --commission-max-rate=0.10 \
-  --commission-max-change-rate=0.01 \
+  --commission-rate="0.10" \
+  --commission-max-rate="0.20" \
+  --commission-max-change-rate="0.01" \
   --min-self-delegation=1 \
   --from=CUZDAN-ADI-YAZ \
   --identity="" \
   --website="https://herculesnode.com" \
   --details="HerculesNode community" \
+  --gas=auto \
+  --gas-adjustment=1.4 \
   --node=http://localhost:16657 \
   -y
 ```
