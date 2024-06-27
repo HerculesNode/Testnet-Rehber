@@ -1,6 +1,6 @@
 ![image](https://github.com/HerculesNode/0G-Newton/assets/101635385/9f3bd440-d371-47b5-afcd-f0d0f4e342d1)
 
-### zgtendermint_16600-2
+### zgtendermint_16600-2  -  v0.2.3
 
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
@@ -42,9 +42,9 @@ source $HOME/.bash_profile && \
 go version
 ```
 
-## 🟢 Dosyaları indirin
+## 🟢 Dosyaları indirin v0.2.3
 ```shell
-git clone -b v0.1.0 https://github.com/0glabs/0g-chain.git
+git clone -b v0.2.3 https://github.com/0glabs/0g-chain.git
 ./0g-chain/networks/testnet/install.sh
 source .profile
 ```
