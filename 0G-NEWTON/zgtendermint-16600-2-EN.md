@@ -253,7 +253,6 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show WALLET-NAME -a) | grep hex | 
   --details="HerculesNode community" \
   --gas=auto \
   --gas-adjustment=1.4 \
-  --node=https://0g-rpc.herculesnode.com:443 \
   -y
 ```
 
