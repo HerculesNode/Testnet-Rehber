@@ -43,7 +43,7 @@ source $HOME/.bash_profile && \
 go version
 ```
 
-## 🟢 Dosyaları indirin v0.2.3
+## 🟢 0G clone File v0.2.3
 ```shell
 git clone -b v0.2.3 https://github.com/0glabs/0g-chain.git
 ./0g-chain/networks/testnet/install.sh
