@@ -258,15 +258,14 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show WALLET-NAME -a) | grep hex | 
 
 ## 🟢 Let's check the validator.
 
-- 
-If you have previously operated a validator, when you enter the validator creation code, your old validator information will appear if you have recovered your old wallet. Now, backup the /root/.0gchain/config/priv_validator_key.json file!
+- If you have previously operated a validator, when you enter the validator creation code, your old validator information will appear if you have recovered your old wallet. Now, backup the /root/.0gchain/config/priv_validator_key.json file!
 
-If you have set up a new validator, it will provide the address for the new validator. Backup this file again.
+- If you have set up a new validator, it will provide the address for the new validator. Backup this file again.
 
-If you want to check, go to that address and append the validator address to the end and open it. 
-https://explorer.herculesnode.com/0G-Testnet/staking/VALIDATOR-ADRESINIZ
+- If you want to check, go to that address and append the validator address to the end and open it. 
+- https://explorer.herculesnode.com/0G-Testnet/staking/VALIDATOR-ADRESINIZ
 
-- Sonra yedeklediğiniz priv_validator_key.json dosyasını bir metin düzenleyici ile açın ve Explorer üzerindeki bilgilerle aynı olduğunu kontrol edin. Dosya içeriği resimdeki gibi olmalıdır.
+- Afterwards, open the priv_validator_key.json file you backed up with a text editor and verify that the information matches what is in Explorer. The file content should look like the image.
 
 ![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/41b269c6-cf8e-4362-8a09-ed9edd1fa1d4)
 
