@@ -291,7 +291,7 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show WALLET-NAME -a) | grep hex | 
 | sort -gr | nl
 ```
 
-## 🟢 Inaktive list
+## 🟢 Inactive list
 
 ```shell
 0gchaind q staking validators -o json --limit=1000 \
