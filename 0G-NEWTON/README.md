@@ -250,6 +250,18 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
   -y
 ```
 
+## 🟢 validator check edelim
+
+- Daha önce validator çalıştırdıysanız validatör oluşturma kodunu girdiğinizde eğer eski cüzdanı recovery yaptıysanız eski validator bilgileriniz gelecek. Şimdi /root/.0gchain/config/priv_validator_key.json dosyasını yedekleyin !!!
+
+- Eğer yeni kurduysanız yeni validatör adresi verecek yine bu dosyayı yedekleyin.
+
+- check etmek istiyorsanız bu adrese gidin ve validator adresini sonuna ekleyin ve açın 
+https://explorer.herculesnode.com/0G-Testnet/staking/
+
+- Daha sonra yedekledğiniz priv_validator_key.json dosyasını bir nor defteri ile açın explorer üzerinden bilgiler aynımı kontrol edin örnek resimdeki gibi aynı olmalı
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/41b269c6-cf8e-4362-8a09-ed9edd1fa1d4)
 
 
 ## 🟢 Delege işlemi
