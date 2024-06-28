@@ -329,7 +329,7 @@ rm -rf $HOME/.0gchain $HOME/0g-chain
 
 - Change the part where it says false to true, then save the file and restart your node
 
-  ```shell
+```shell
 nano .0gchain/config/app.toml
 ```
 
