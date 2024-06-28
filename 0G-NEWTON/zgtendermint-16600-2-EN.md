@@ -8,7 +8,7 @@
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [OG Discord](https://discord.gg/0glabs)
- * [HerculesNode Explorer](https://explorer.herculesnode.com/0G-Testnet/staking)
+ * [HerculesNode 0G Explorer](https://explorer.herculesnode.com/0G-Testnet/staking)
 
 
 ## 🟢 Discord Role
