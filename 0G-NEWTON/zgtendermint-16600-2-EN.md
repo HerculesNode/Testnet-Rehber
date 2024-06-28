@@ -123,7 +123,7 @@ wget -P ~/.0gchain/config https://github.com/0glabs/0g-chain/releases/download/v
 0gchaind validate-genesis
 ```
 
-## 🟢 PEER VE SEED 
+## 🟢 PEER and SEED 
 
 ```shell
 PEERS="cd529839591e13f5ed69e9a029c5d7d96de170fe@46.4.55.46:34656,28070a5cf6464c4f1a7716acdace3e7e57f39fd6@75.119.157.128:26646,baeceedd1ec1ba6ce1b6d19bb40f7b571026fb05@75.119.136.242:26646,b2ea93761696d4881e87f032a7f6158c6c25d92c@45.14.194.241:26646,d589ec553a75287d87635a8403f140f53b2f8432@85.239.232.29:13456,bf8f850598d3d52ee176296f07c10212e0d334ca@testnet-v2-0g-rpc.emberstake.xyz:34140,6122859577a3465ba67065f3b63194cae67ef4c4@110.171.123.186:36656" && \
