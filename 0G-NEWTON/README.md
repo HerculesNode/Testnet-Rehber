@@ -257,7 +257,7 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
 - Eğer yeni kurduysanız yeni validatör adresi verecek yine bu dosyayı yedekleyin.
 
 - check etmek istiyorsanız bu adrese gidin ve validator adresini sonuna ekleyin ve açın 
-https://explorer.herculesnode.com/0G-Testnet/staking/
+https://explorer.herculesnode.com/0G-Testnet/staking/VALIDATOR-ADRESINIZ
 
 - Daha sonra yedekledğiniz priv_validator_key.json dosyasını bir nor defteri ile açın explorer üzerinden bilgiler aynımı kontrol edin örnek resimdeki gibi aynı olmalı
 
