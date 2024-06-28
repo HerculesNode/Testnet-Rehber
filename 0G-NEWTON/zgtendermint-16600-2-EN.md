@@ -263,7 +263,7 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show WALLET-NAME -a) | grep hex | 
 - If you have set up a new validator, it will provide the address for the new validator. Backup this file again.
 
 - If you want to check, go to that address and append the validator address to the end and open it. 
-- https://explorer.herculesnode.com/0G-Testnet/staking/VALIDATOR-ADRESINIZ
+- https://explorer.herculesnode.com/0G-Testnet/staking/VALIDATOR-ADRESS
 
 - Afterwards, open the priv_validator_key.json file you backed up with a text editor and verify that the information matches what is in Explorer. The file content should look like the image.
 
@@ -276,7 +276,7 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show WALLET-NAME -a) | grep hex | 
 0gchaind tx staking delegate $(0gchaind keys show WALLET-NAME --bech val -a) 1000000ua0gi --from WALLET-NAME -y
 ```
 
-## 🟢 Unjail işlemi
+## 🟢 Unjail 
 
 ```shell
 0gchaind tx slashing unjail --from CÜZDAN-ADINIZ --from WALLET-NAME --gas=500000 --gas-prices=99999ua0gi -y
@@ -306,14 +306,14 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show WALLET-NAME -a) | grep hex | 
 0gchaind q bank balances $(0gchaind keys show WALLET-NAME -a)
 ```
 
-## 🟢 VAlidatör bilgilerine bakma duruma bakma
+## 🟢 Validator status
 
 ```shell
 0gchaind q staking validator $(0gchaind keys show WALLET-NAME --bech val -a)
 ```
 
 
-## 🟢 dELETE
+## 🟢 Delete
 
 ```shell
 sudo systemctl stop 0gchaind.service
@@ -321,3 +321,27 @@ sudo systemctl disable 0gchaind.service
 sudo rm /etc/systemd/system/0gchaind.service
 rm -rf $HOME/.0gchain $HOME/0g-chain
 ```
+
+
+## 🟢 RPC enable
+
+- Navigate to /root/.0gchain/config/app.toml file and find the API Configuration section.
+
+- Change the part where it says false to true, then save the file and restart your node
+
+  ```shell
+nano .0gchain/config/app.toml
+```
+
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/20aacc68-21e1-4837-8d36-395825f48d3e)
+
+
+```shell
+sudo systemctl daemon-reload
+sudo systemctl restart 0gchaind
+```
+
+```shell
+sudo journalctl -u 0gchaind.service -f --no-hostname -o cat
+```
+
