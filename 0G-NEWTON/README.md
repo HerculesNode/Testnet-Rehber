@@ -2,6 +2,8 @@
 
 ### zgtendermint_16600-2  -  v0.2.3
 
+- Eğer daha önce validatör çalıştırdıysanız. Priv Key yüklemeyin. Yeniden validatör oluşturacaksınız, Sadece cüzdan recover yapın ve yeni validatör oluşturma kodunu kullanın. Daha sonra yeni priv_key yedekleyin.
+
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
