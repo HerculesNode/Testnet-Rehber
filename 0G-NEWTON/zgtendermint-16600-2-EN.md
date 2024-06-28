@@ -64,7 +64,7 @@ sudo ln -s $HOME/.0gchain/cosmovisor/current/bin/0gchaind /usr/local/bin/0gchain
 go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.5.0
 ```
 
-## 🟢 Servis oluşturun
+## 🟢 Service Create
 
 ```shell
 sudo tee /etc/systemd/system/0gchaind.service > /dev/null << EOF
