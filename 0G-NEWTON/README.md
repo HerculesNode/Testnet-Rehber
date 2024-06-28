@@ -100,7 +100,7 @@ sudo systemctl enable 0gchaind.service
 ```shell
 0gchaind config chain-id zgtendermint_16600-2
 0gchaind config keyring-backend os
-0gchaind config node tcp://localhost:16657
+0gchaind config node tcp://localhost:26657
 ```
 
 ```shell
@@ -139,7 +139,7 @@ sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.0gchain/config/config
 sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.0gchain/config/config.toml
 ```
 
-## 🟢 Port Ayarları
+## 🟢 Port Ayarları ( eğer başka bir proje çalışıyorsa kullanın )
 
 ```shell
 echo "export G_PORT="16"" >> $HOME/.bash_profile
@@ -163,6 +163,13 @@ s%:6060%:${G_PORT}060%g;
 s%:26656%:${G_PORT}656%g;
 s%^external_address = \"\"%external_address = \"$(wget -qO- eth0.me):${G_PORT}656\"%;
 s%:26660%:${G_PORT}660%g" $HOME/.0gchain/config/config.toml
+```
+
+```shell
+sed -i \
+    -e 's/address = "127.0.0.1:8545"/address = "0.0.0.0:8545"/' \
+    -e 's|^api = ".*"|api = "eth,txpool,personal,net,debug,web3"|' \
+    $HOME/.0gchain/config/app.toml
 ```
 
 ## 🟢 Başlatalım
