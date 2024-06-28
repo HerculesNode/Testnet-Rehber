@@ -107,25 +107,26 @@ sudo systemctl enable 0gchaind.service
 0gchaind init NODE-ISMINI-YAZ --chain-id zgtendermint_16600-2
 ```
 
-## 🟢 Genesis
+## 🟢 Genesis dosyası 
 
 ```shell
 rm ~/.0gchain/config/genesis.json
 wget -P ~/.0gchain/config https://github.com/0glabs/0g-chain/releases/download/v0.2.3/genesis.json
-curl -Ls https://raw.githubusercontent.com/Core-Node-Team/Testnet-TR/main/0G-Newton/addrbook.json > $HOME/.0gchain/config/addrbook.json
+
 ```
 
 ```shell
-rm ~/.0gchain/config/genesis.json
-wget -P ~/.0gchain/config https://github.com/0glabs/0g-chain/releases/download/v0.1.0/genesis.json
+0gchaind validate-genesis
 ```
 
-## 🟢 diğer Seed
+## 🟢 PEER VE SEED 
 
 ```shell
 PEERS="cd529839591e13f5ed69e9a029c5d7d96de170fe@46.4.55.46:34656,28070a5cf6464c4f1a7716acdace3e7e57f39fd6@75.119.157.128:26646,baeceedd1ec1ba6ce1b6d19bb40f7b571026fb05@75.119.136.242:26646,b2ea93761696d4881e87f032a7f6158c6c25d92c@45.14.194.241:26646,d589ec553a75287d87635a8403f140f53b2f8432@85.239.232.29:13456,bf8f850598d3d52ee176296f07c10212e0d334ca@testnet-v2-0g-rpc.emberstake.xyz:34140,6122859577a3465ba67065f3b63194cae67ef4c4@110.171.123.186:36656" && \
 sed -i -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.0gchain/config/config.toml
 ```
+
+## 🟢 Prune
 
 ```shell
 
@@ -137,6 +138,8 @@ sed -i 's|minimum-gas-prices =.*|minimum-gas-prices = "0ua0gi"|g' $HOME/.0gchain
 sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.0gchain/config/config.toml
 sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.0gchain/config/config.toml
 ```
+
+## 🟢 Port Ayarları
 
 ```shell
 echo "export G_PORT="16"" >> $HOME/.bash_profile
@@ -162,7 +165,7 @@ s%^external_address = \"\"%external_address = \"$(wget -qO- eth0.me):${G_PORT}65
 s%:26660%:${G_PORT}660%g" $HOME/.0gchain/config/config.toml
 ```
 
-## 🟢 başlatın
+## 🟢 Başlatalım
 
 ```shell
 sudo systemctl daemon-reload
