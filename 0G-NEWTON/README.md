@@ -273,7 +273,7 @@ https://explorer.herculesnode.com/0G-Testnet/staking/VALIDATOR-ADRESINIZ
 ## 🟢 Unjail işlemi
 
 ```shell
-0gchaind tx slashing unjail --from CÜZDAN-ADINIZ --from herculwallet --gas=500000 --gas-prices=99999ua0gi --node=http://localhost:16657 -y
+0gchaind tx slashing unjail --from CÜZDAN-ADINIZ --from CÜZDAN-İSMİ --gas=500000 --gas-prices=99999ua0gi -y
 ```
 
 ## 🟢 Aktif listeye bakma
