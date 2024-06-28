@@ -247,7 +247,6 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
   --details="HerculesNode community" \
   --gas=auto \
   --gas-adjustment=1.4 \
-  --node=http://localhost:16657 \
   -y
 ```
 
