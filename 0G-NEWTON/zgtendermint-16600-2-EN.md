@@ -189,6 +189,9 @@ sudo systemctl restart 0gchaind
 sudo journalctl -u 0gchaind.service -f --no-hostname -o cat
 ```
 
+![image](https://github.com/HerculesNode/Testnet-Rehber/assets/101635385/57951da3-14ac-460b-ae3e-bc63588053b2)
+
+
 
 ## 🟢 Wallet creation (If you participated in the previous testnet, recover the same wallet. If you are setting up for the first time, do not use the recovery code).
 
