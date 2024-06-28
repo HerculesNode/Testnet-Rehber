@@ -102,7 +102,7 @@ sudo systemctl enable 0gchaind.service
 ```shell
 0gchaind config chain-id zgtendermint_16600-2
 0gchaind config keyring-backend os
-0gchaind config node tcp://localhost:26657
+0gchaind config node tcp://localhost:16657
 ```
 
 ```shell
