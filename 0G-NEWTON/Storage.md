@@ -39,18 +39,32 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ## 🟢 Dosyaları indirin
-```shell
-sudo apt install git
-git clone -b v0.3.1 https://github.com/0glabs/0g-storage-node.git
+```bash
+cd $HOME
+git clone -b v0.3.2 https://github.com/0glabs/0g-storage-node.git
+cd 0g-storage-node
+git submodule update --init
+cargo build --release
+sudo mv "$HOME/0g-storage-node/target/release/zgs_node" /usr/local/bin
 ```
 
-## 🟢 Cargo yükleme
-```shell
-cd $HOME/0g-storage-node
-git submodule update --init
-sudo apt install cargo
-cargo build --release
+## 🟢 Enr çıkartalım
+```bash
+ENR_ADDRESS=$(wget -qO- eth0.me)
+echo "export ENR_ADDRESS=${ENR_ADDRESS}"
 ```
+
+```bash
+cat <<EOF >> ~/.bash_profile
+export ENR_ADDRESS=${ENR_ADDRESS}
+export ZGS_CONFIG_FILE="$HOME/0g-storage-node/run/config.toml"
+export ZGS_LOG_DIR="$HOME/0g-storage-node/run/log"
+export ZGS_LOG_CONFIG_FILE="$HOME/0g-storage-node/run/log_config"
+EOF
+
+sourc
+
+
 
 ## 🟢 Variable yükleme
 ```shell
@@ -64,69 +78,66 @@ source ~/.bash_profile
 echo -e "\n\033[31mCHECK YOUR VARIABLES\033[0m\n\nENR_ADDRESS: $ENR_ADDRESS\n\n\nLOG_CONTRACT_ADDRESS: $LOG_CONTRACT_ADDRESS\nMINE_CONTRACT: $MINE_CONTRACT\nZGS_LOG_SYNC_BLOCK: $ZGS_LOG_SYNC_BLOCK\nBLOCKCHAIN_RPC_ENDPOINT: $BLOCKCHAIN_RPC_ENDPOINT\n\n\033[33mby Nodebrand.\033[0m"
 ```
 
-## 🟢 Private key çıkarmak ve kaydetmek için uygulayın.
-```shell
-PRIVATE_KEY=$(0gchaind keys unsafe-export-eth-key $WALLET_NAME) &&
-sed -i 's|^miner_key = ""|miner_key = "'"$PRIVATE_KEY"'"|' $HOME/0g-storage-node/run/config.toml
+## 🟢 Store Miner key girelim OG Validator cüzdan private keyinizi gireceksiniz.
+```bash
+read -p "Enter your private key for miner_key configuration: " PRIVATE_KEY && echo
 ```
 
-Network name : 0g Chain Testnet
-
-New RPC URL : https://rpc-testnet.0g.ai
-
-Chain ID : 16600
-
-Currency symbol: A0GI
-
-Block explorer URL (Optional) : https://scan-testnet.0g.ai/
-
-
-## 🟢 Node harici çalıştıracak kişiler Metamask üzerinden cüzdanın private keyini export edip aşağıdaki kod ile kaydetsin.
-```shell
-read -sp "Enter your private key: " PRIVATE_KEY && echo
-sed -i 's|^miner_key = ""|miner_key = "'"$PRIVATE_KEY"'"|' $HOME/0g-storage-node/run/config.toml
+## 🟢 DB yolu oluşturalım
+```bash
+mkdir -p "$HOME/0g-storage-node/network" "$HOME/0g-storage-node/db"
 ```
+
 
 ## 🟢 Update config.toml 
-```shell
-sed -i '
-s|^\s*#\?\s*network_dir\s*=.*|network_dir = "network"|
-s|^\s*#\?\s*network_enr_address\s*=.*|network_enr_address = "'"$ENR_ADDRESS"'"|
-s|^\s*#\?\s*network_enr_tcp_port\s*=.*|network_enr_tcp_port = 1234|
-s|^\s*#\?\s*network_enr_udp_port\s*=.*|network_enr_udp_port = 1234|
-s|^\s*#\?\s*network_libp2p_port\s*=.*|network_libp2p_port = 1234|
-s|^\s*#\?\s*network_discovery_port\s*=.*|network_discovery_port = 1234|
-s|^\s*#\?\s*rpc_enabled\s*=.*|rpc_enabled = true|
-s|^\s*#\?\s*db_dir\s*=.*|db_dir = "db"|
-s|^\s*#\?\s*log_config_file\s*=.*|log_config_file = "log_config"|
-s|^\s*#\?\s*log_directory\s*=.*|log_directory = "log"|
-s|^\s*#\?\s*network_boot_nodes\s*=.*|network_boot_nodes = \["/ip4/54.219.26.22/udp/1234/p2p/16Uiu2HAmPxGNWu9eVAQPJww79J32pTJLKGcpjRMb4Qb8xxKkyuG1","/ip4/52.52.127.117/udp/1234/p2p/16Uiu2HAm93Hd5azfhkGBbkx1zero3nYHvfjQYM2NtiW4R3r5bE2g"\]|
-s|^\s*#\?\s*log_contract_address\s*=.*|log_contract_address = "'"$LOG_CONTRACT_ADDRESS"'"|
-s|^\s*#\?\s*mine_contract_address\s*=.*|mine_contract_address = "'"$MINE_CONTRACT"'"|
-s|^\s*#\?\s*log_sync_start_block_number\s*=.*|log_sync_start_block_number = '"$ZGS_LOG_SYNC_BLOCK"'|
-s|^\s*#\?\s*blockchain_rpc_endpoint\s*=.*|blockchain_rpc_endpoint = "'"$BLOCKCHAIN_RPC_ENDPOINT"'"|
-s|^\s*miner_id\s*=\s*""|# miner_id = ""|
-' $HOME/0g-storage-node/run/config.toml
+```bash
+sed -i 's|^\s*#\?\s*network_dir\s*=.*|network_dir = "/root/0g-storage-node/network"|' "$ZGS_CONFIG_FILE"
+
+sed -i "s|^\s*#\?\s*network_enr_address\s*=.*|network_enr_address = \"$ENR_ADDRESS\"|" "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*network_enr_tcp_port\s*=.*|network_enr_tcp_port = 1234|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*network_enr_udp_port\s*=.*|network_enr_udp_port = 1234|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*network_libp2p_port\s*=.*|network_libp2p_port = 1234|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*network_discovery_port\s*=.*|network_discovery_port = 1234|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*network_target_peers\s*=.*|network_target_peers = 50|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*blockchain_rpc_endpoint\s*=.*|blockchain_rpc_endpoint = "https://og-testnet-jsonrpc.blockhub.id"|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*rpc_enabled\s*=\s*true|rpc_enabled = true|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*rpc_listen_address\s*=\s*"0.0.0.0:5678"|rpc_listen_address = "0.0.0.0:5678"|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*db_dir\s*=.*|db_dir = "/root/0g-storage-node/db"|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*log_config_file\s*=.*|log_config_file = "/root/0g-storage-node/run/log_config"|' "$ZGS_CONFIG_FILE"
+
+sed -i 's|^\s*#\?\s*log_directory\s*=.*|log_directory = "/root/0g-storage-node/run/log"|' "$ZGS_CONFIG_FILE"
+
+sed -i "s|^\s*#\?\s*miner_key\s*=.*|miner_key = \"$PRIVATE_KEY\"|" "$ZGS_CONFIG_FILE"
 ```
 
 ## 🟢 Servis dosyası oluşturma
-```shell
+```bash
 sudo tee /etc/systemd/system/zgs.service > /dev/null <<EOF
 [Unit]
-Description=ZGS Node
+Description=0G Storage Node
 After=network.target
 
 [Service]
 User=$USER
-WorkingDirectory=$HOME/0g-storage-node/run
-ExecStart=$HOME/0g-storage-node/target/release/zgs_node --config $HOME/0g-storage-node/run/config.toml
+Type=simple
+ExecStart=/usr/local/bin/zgs_node --config $HOME/0g-storage-node/run/config.toml
 Restart=on-failure
-RestartSec=10
 LimitNOFILE=65535
 
 [Install]
 WantedBy=multi-user.target
 EOF
+```
 ```
 
 ## 🟢 Servis başlatma
@@ -144,14 +155,4 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 ## 🟢 Loglarda bir hata alırsanız aşağıdaki kodu uygulayın. Çıktığı starage-node kanalına gönderin.
 ```shell
 echo -e "LOG_CONTRACT_ADDRESS: $LOG_CONTRACT_ADDRESS\nMINE_CONTRACT: $MINE_CONTRACT\nZGS_LOG_SYNC_BLOCK: $ZGS_LOG_SYNC_BLOCK\nBLOCKCHAIN_RPC_ENDPOINT: $BLOCKCHAIN_RPC_ENDPOINT\n\n\033[33mby Nodebrand.\033[0m"
-```
-
-## 🟢 update v.0.3.1
-```shell
-cd $HOME
-git clone -b v0.3.1 https://github.com/0glabs/0g-storage-node.git
-cd 0g-storage-node
-git submodule update --init
-cargo build --release
-sudo mv "$HOME/0g-storage-node/target/release/zgs_node" /usr/local/bin
 ```
