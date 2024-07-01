@@ -64,6 +64,24 @@ sudo ln -s $HOME/.0gchain/cosmovisor/current/bin/0gchaind /usr/local/bin/0gchain
 go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.5.0
 ```
 
+## 🟢 Node Setting
+
+```shell
+echo "export OG_CHAIN_ID="zgtendermint_16600-2"" >> $HOME/.bash_profile
+echo "export OG_PORT="26"" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+```
+
+```shell
+0gchaind config chain-id $OG_CHAIN_ID
+0gchaind config node tcp://localhost:${OG_PORT}657
+0gchaind config keyring-backend os
+```
+
+```shell
+0gchaind init NODE-ISMINI-YAZ --chain-id $OG_CHAIN_ID
+```
+
 ## 🟢 Service Create
 
 ```shell
@@ -95,20 +113,6 @@ sudo ln -s $HOME/.0gchain/cosmovisor/current/bin/0gchaind /usr/local/bin/0gchain
 ```shell
 sudo systemctl daemon-reload
 sudo systemctl enable 0gchaind.service
-```
-
-## 🟢 Node Setting
-
-```shell
-0gchaind config chain-id zgtendermint_16600-2
-0gchaind config keyring-backend os
-0gchaind config node tcp://localhost:26657
-```
-
-- Please write your NODE NAME
-
-```shell
-0gchaind init NODE-NAME --chain-id zgtendermint_16600-2
 ```
 
 ## 🟢 Genesis file 
@@ -146,27 +150,12 @@ sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.0gchain/config/config.tom
 ## 🟢 Port settings (use if another project is running).
 
 ```shell
-echo "export G_PORT="16"" >> $HOME/.bash_profile
-source $HOME/.bash_profile
-```
-
-```shell
-sed -i.bak -e "s%:1317%:${G_PORT}317%g;
-s%:8080%:${G_PORT}080%g;
-s%:9090%:${G_PORT}090%g;
-s%:9091%:${G_PORT}091%g;
-s%:8545%:${G_PORT}545%g;
-s%:8546%:${G_PORT}546%g;
-s%:6065%:${G_PORT}065%g" $HOME/.0gchain/config/app.toml
-```
-
-```shell
-sed -i.bak -e "s%:26658%:${G_PORT}658%g;
-s%:26657%:${G_PORT}657%g;
-s%:6060%:${G_PORT}060%g;
-s%:26656%:${G_PORT}656%g;
-s%^external_address = \"\"%external_address = \"$(wget -qO- eth0.me):${G_PORT}656\"%;
-s%:26660%:${G_PORT}660%g" $HOME/.0gchain/config/config.toml
+sed -i.bak -e "s%:26658%:${OG_PORT}658%g;
+s%:26657%:${OG_PORT}657%g;
+s%:6060%:${OG_PORT}060%g;
+s%:26656%:${OG_PORT}656%g;
+s%^external_address = \"\"%external_address = \"$(wget -qO- eth0.me):${OG_PORT}656\"%;
+s%:26660%:${OG_PORT}660%g" $HOME/.0gchain/config/config.toml
 ```
 
 ```shell
