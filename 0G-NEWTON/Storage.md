@@ -39,7 +39,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ## 🟢 Dosyaları indirin
-```bash
+```shell
 cd $HOME
 git clone -b v0.3.2 https://github.com/0glabs/0g-storage-node.git
 cd 0g-storage-node
@@ -49,20 +49,20 @@ sudo mv "$HOME/0g-storage-node/target/release/zgs_node" /usr/local/bin
 ```
 
 ## 🟢 Enr çıkartalım
-```bash
+```shell
 ENR_ADDRESS=$(wget -qO- eth0.me)
 echo "export ENR_ADDRESS=${ENR_ADDRESS}"
 ```
 
-```bash
+```shell
 cat <<EOF >> ~/.bash_profile
 export ENR_ADDRESS=${ENR_ADDRESS}
 export ZGS_CONFIG_FILE="$HOME/0g-storage-node/run/config.toml"
 export ZGS_LOG_DIR="$HOME/0g-storage-node/run/log"
 export ZGS_LOG_CONFIG_FILE="$HOME/0g-storage-node/run/log_config"
 EOF
+```
 
-sourc
 
 
 
@@ -79,12 +79,12 @@ echo -e "\n\033[31mCHECK YOUR VARIABLES\033[0m\n\nENR_ADDRESS: $ENR_ADDRESS\n\n\
 ```
 
 ## 🟢 Store Miner key girelim OG Validator cüzdan private keyinizi gireceksiniz.
-```bash
+```shell
 read -p "Enter your private key for miner_key configuration: " PRIVATE_KEY && echo
 ```
 
 ## 🟢 DB yolu oluşturalım
-```bash
+```shell
 mkdir -p "$HOME/0g-storage-node/network" "$HOME/0g-storage-node/db"
 ```
 
@@ -121,7 +121,7 @@ sed -i "s|^\s*#\?\s*miner_key\s*=.*|miner_key = \"$PRIVATE_KEY\"|" "$ZGS_CONFIG_
 ```
 
 ## 🟢 Servis dosyası oluşturma
-```bash
+```shell
 sudo tee /etc/systemd/system/zgs.service > /dev/null <<EOF
 [Unit]
 Description=0G Storage Node
@@ -138,7 +138,7 @@ LimitNOFILE=65535
 WantedBy=multi-user.target
 EOF
 ```
-```
+
 
 ## 🟢 Servis başlatma
 ```shell
