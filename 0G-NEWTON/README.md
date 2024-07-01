@@ -64,25 +64,6 @@ sudo ln -s $HOME/.0gchain/cosmovisor/current/bin/0gchaind /usr/local/bin/0gchain
 go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.5.0
 ```
 
-## 🟢 Node Ayarları
-
-```shell
-echo "export OG_CHAIN_ID="zgtendermint_16600-2"" >> $HOME/.bash_profile
-echo "export OG_PORT="26"" >> $HOME/.bash_profile
-source $HOME/.bash_profile
-```
-
-```shell
-0gchaind config chain-id $OG_CHAIN_ID
-0gchaind config node tcp://localhost:${OG_PORT}657
-0gchaind config keyring-backend os
-```
-
-```shell
-0gchaind init NODE-ISMINI-YAZ --chain-id $OG_CHAIN_ID
-```
-
-
 ## 🟢 Servis oluşturun
 
 ```shell
@@ -114,6 +95,24 @@ sudo ln -s $HOME/.0gchain/cosmovisor/current/bin/0gchaind /usr/local/bin/0gchain
 ```shell
 sudo systemctl daemon-reload
 sudo systemctl enable 0gchaind.service
+```
+
+## 🟢 Node Ayarları
+
+```shell
+echo "export OG_CHAIN_ID="zgtendermint_16600-2"" >> $HOME/.bash_profile
+echo "export OG_PORT="26"" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+```
+
+```shell
+0gchaind config chain-id $OG_CHAIN_ID
+0gchaind config node tcp://localhost:${OG_PORT}657
+0gchaind config keyring-backend os
+```
+
+```shell
+0gchaind init NODE-ISMINI-YAZ --chain-id $OG_CHAIN_ID
 ```
 
 ## 🟢 Genesis dosyası 
