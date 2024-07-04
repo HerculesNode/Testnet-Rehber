@@ -4,7 +4,7 @@
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [faucet](https://faucet.testnet.initia.xyz/)
- * [HerculesNode Explorer](https://explorer.herculesnode.xyz/Initia/staking)
+ * [HerculesNode Explorer](https://explorer.herculesnode.com/Initia/staking)
  * [görevler](https://initia-xyz.notion.site/The-Initiation-Validator-Tasks-6d88ab0034644473907435662f9285b3)
  * [Form](https://docs.google.com/forms/d/e/1FAIpQLSc09Kl6mXyZHOL12n_6IUA8MCcL6OqzTqsoZn9N8gpptoeU_Q/viewform)
 
@@ -16,8 +16,8 @@
 
 | Services | 
 | :-------- | 
-| RPC : https://initia-testnet-rpc.herculesrollap.store:443     | 
-| API : https://initia-testnet-api.herculesrollap.store:443     | 
+| RPC : https://initia-rpc.herculesnode.com     | 
+| API : https://initia-api.herculesnode.com     | 
 
 
 
