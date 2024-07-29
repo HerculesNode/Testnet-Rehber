@@ -1,4 +1,4 @@
-### Herculesnode Scannerx Initia Guide v0.2.15
+### Herculesnode Initia Guide v0.2.15
 
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
