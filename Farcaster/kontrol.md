@@ -58,8 +58,8 @@ check_and_upgrade() {
 
 while true; do
   check_and_upgrade
-  # Günde 2 kex herculesnode
-  sleep 43200
+  # Günde 1 kex herculesnode
+  sleep 86400
 done
 
 ```
