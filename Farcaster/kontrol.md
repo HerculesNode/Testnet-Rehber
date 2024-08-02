@@ -10,6 +10,10 @@ cd ~/hubble
 ```
 
 ```shell
+pip install packaging
+```
+
+```shell
 nano warpcontrol.sh
 ```
 
