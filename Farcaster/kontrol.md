@@ -33,7 +33,8 @@ pip install packaging
 nano warpcontrol.sh
 ```
 
-## Aşağıdaki komutu tek seferde kopyalayın CTRL + X + Y ile kaydedin
+
+## farcaster logları için hangi SCREEN kullanıyorsanız aşağıdaki kodda bulunan screen -S warp olan yeri değiştirin. daha sonra kopyalayın CTRL + X + Y ile kaydedin
 
 ```shell
 #!/bin/bash
