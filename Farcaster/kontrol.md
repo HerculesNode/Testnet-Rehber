@@ -1,5 +1,13 @@
 ## Bu betik otomatik versiyon kontrolü yapar. 
 
+## Güncelse birşey yapmaz
+
+![image](https://github.com/user-attachments/assets/e5774e44-506c-4f26-af89-302d50a171b8)
+
+## Güncel değilse çalışır
+
+![image](https://github.com/user-attachments/assets/25a741f8-32b6-4fc7-9b98-306a6eee6e88)
+
 
 ```shell
 screen -S otokontrol
