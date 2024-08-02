@@ -1,4 +1,4 @@
-#### Bu betik otomatik versiyon kontrolü yapar. 
+## Bu betik otomatik versiyon kontrolü yapar. 
 
 
 ```shell
