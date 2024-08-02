@@ -47,9 +47,7 @@ check_and_upgrade() {
 
 
   if [ "$LATEST_VERSION" != "v$CURRENT_VERSION" ]; then
-    cd hubble
- 
-    screen -S warp -X stuff $'./hubble.sh upgrade\n'
+   screen -S warp -X stuff $'./hubble.sh upgrade\n'
 
    
     echo "${LATEST_VERSION#v}" > "$VERSION_FILE"
