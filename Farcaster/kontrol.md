@@ -10,14 +10,6 @@ cd ~/hubble
 ```
 
 ```shell
-cat > versiyon.txt
-```
-
-```shell
-chmod +x versiyon.txt
-```
-
-```shell
 nano warpcontrol.sh
 ```
 
@@ -31,40 +23,69 @@ VERSION_FILE="versiyon.txt"
 
 
 if [ ! -f "$VERSION_FILE" ]; then
-  echo "1.14.2" > "$VERSION_FILE"
+  echo "@farcaster/hubble@1.14.1" > "$VERSION_FILE"
 fi
 
 
+compare_versions() {
+  python3 -c "
+from packaging import version
+import sys
+
+v1 = sys.argv[1]
+v2 = sys.argv[2]
+
+if version.parse(v1) > version.parse(v2):
+    print('1')  # v1 > v2
+else:
+    print('0')  # v1 <= v2
+" "$1" "$2"
+}
+
+
 check_and_upgrade() {
-  
+
   URL="https://github.com/farcasterxyz/hub-monorepo/releases"
 
- 
-  CURRENT_VERSION=$(cat "$VERSION_FILE")
+
+  LATEST_VERSION=$(curl -s $URL | grep -oP '@farcaster/hubble@[0-9]+\.[0-9]+\.[0-9]+' | head -1)
 
   
-  LATEST_VERSION=$(curl -s $URL | grep -oP 'v[0-9]+\.[0-9]+\.[0-9]+' | head -1)
+  CURRENT_VERSION=$(cat "$VERSION_FILE")
 
 
-  if [ "$LATEST_VERSION" != "v$CURRENT_VERSION" ]; then
-    echo "Yeni sürüm bulundu: $LATEST_VERSION. Güncelleniyor..."
+  LATEST_VERSION_NO_PREFIX="${LATEST_VERSION#@farcaster/hubble@}"
+  CURRENT_VERSION_NO_PREFIX="${CURRENT_VERSION#@farcaster/hubble@}"
 
+  echo "Mevcut Sürüm: $CURRENT_VERSION"
+  echo "En Son Sürüm: $LATEST_VERSION"
+
+
+  if [ -n "$LATEST_VERSION" ]; then
+    COMPARE_RESULT=$(compare_versions "$LATEST_VERSION_NO_PREFIX" "$CURRENT_VERSION_NO_PREFIX")
+    if [ "$COMPARE_RESULT" -eq 1 ]; then
+      echo "Yeni sürüm bulundu: $LATEST_VERSION. Güncelleniyor..."
+
+      
+    
+      screen -S warp -X stuff $'./hubble.sh upgrade\n'
 
    
-    screen -S warp -X stuff $'./hubble.sh upgrade\n'
-
-    
-    echo "${LATEST_VERSION#v}" > "$VERSION_FILE"
+      echo "$LATEST_VERSION" > "$VERSION_FILE"
+    else
+      echo "Sürüm güncel: $CURRENT_VERSION"
+    fi
   else
-    echo "Sürüm güncel: $CURRENT_VERSION"
+    echo "En son sürüm bilgisi alınamadı."
   fi
 }
 
 while true; do
   check_and_upgrade
-  # Günde 1 kere HerculesNode
-  sleep 86400
+  # 1 kere günde HerculesNode
+  sleep 84600
 done
+
 
 
 ```
