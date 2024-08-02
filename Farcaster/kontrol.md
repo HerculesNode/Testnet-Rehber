@@ -18,6 +18,14 @@ cd ~/hubble
 ```
 
 ```shell
+sudo apt install python3
+```
+
+```shell
+sudo apt install python3-pip
+```
+
+```shell
 pip install packaging
 ```
 
