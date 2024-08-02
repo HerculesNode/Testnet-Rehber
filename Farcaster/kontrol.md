@@ -18,7 +18,7 @@ chmod +x versiyon.txt
 ```
 
 ```shell
-nano hubble/warpcontrol.sh
+nano warpcontrol.sh
 ```
 
 ## Aşağıdaki komutu tek seferde kopyalayın CTRL + X + Y ile kaydedin
