@@ -39,7 +39,7 @@ check_and_upgrade() {
  LATEST_VERSION=$(curl -s $URL | grep -oP 'v[0-9]+\.[0-9]+\.[0-9]+' | head -1)
 
  if [ "$LATEST_VERSION" != "v$CURRENT_VERSION" ]; then
-  screen -dmS warp ./hubble.sh upgrade
+  screen -S warp -X stuff $'./hubble.sh upgrade\n'
 
 
     echo "${LATEST_VERSION#v}" > "$VERSION_FILE"
