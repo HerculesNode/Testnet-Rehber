@@ -36,6 +36,9 @@ nano warpcontrol.sh
 
 ## farcaster logları için hangi SCREEN kullanıyorsanız aşağıdaki kodda bulunan screen -S warp olan yeri değiştirin. daha sonra kopyalayın CTRL + X + Y ile kaydedin
 
+![image](https://github.com/user-attachments/assets/3113f7c1-5cf9-4916-9929-ac03270924ec)
+
+
 ```shell
 #!/bin/bash
 
