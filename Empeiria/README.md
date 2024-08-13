@@ -104,8 +104,11 @@ sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"10\"/" $HOME/.empe-chai
 sed -i "s/^indexer *=.*/indexer = \"null\"/" $HOME/.empe-chain/config/config.toml
 ```
 # Snap
+
+Buradan bakın ona göre değiştirin : [SNAP](https://archive-testnet.empe.io/)
+
 ```shell
-ARCHIVE=empe-chain-1_2024-07-28.tar
+ARCHIVE=empe-chain-1_2024-08-13.tar
 ```
 ```shell
 curl -O https://archive-testnet.empe.io/$ARCHIVE
