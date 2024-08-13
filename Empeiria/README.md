@@ -166,8 +166,8 @@ emped tx staking create-validator \
   --moniker "moniker" \
   --chain-id=empe-testnet-2 \
   --identity "" \
-  --details "" \
-  --website "" \
+  --details "HerculesNode community" \
+  --website "http://herculesnode.com" \
   --commission-max-change-rate=0.01 \
   --commission-max-rate=1.0 \
   --commission-rate=0.05 \
