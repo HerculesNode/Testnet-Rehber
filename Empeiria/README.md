@@ -21,7 +21,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
 ```
 
-# Go
+# Go Kurulumu
 ```shell
 cd $HOME
 VER="1.22.3"
@@ -154,7 +154,7 @@ emped keys add wallet-name
 # Faucet 
 [Empeiria testnet faucet](https://faucet-testnet.empe.io/#/)
 
-# Validator oluşturalım
+# Validator oluşturalım ( Son bloğa gelmeden oluşturmayın )
 
 ```shell
 cd $HOME
