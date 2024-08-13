@@ -113,7 +113,9 @@ tar -xvf $ARCHIVE -C ~/.empe-chain/data
 rm $ARCHIVE
 ```
 # Port Ayarları
-You can replace 77 with anything you want.
+77 istediğiniz ile değiştirebilirsiniz. 
+
+
 ```shell
 echo "export CUSTOM_PORT="77"" >> $HOME/.bash_profile
 source $HOME/.bash_profile
