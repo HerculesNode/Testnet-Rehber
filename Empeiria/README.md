@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/9ccbdb2c-0ecb-457f-8ffa-a5e560eba7fe)
+
+
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Web](https://herculesnode.com)
@@ -185,7 +188,7 @@ emped tx staking delegate VALİDATOR-ADRESİ amount000000uempe \
 ```
 
 
-# nODU KALDIRIN #
+# NODU KALDIRIN #
 ```shell
 cd $HOME
 sudo systemctl stop emped
