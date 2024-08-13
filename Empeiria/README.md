@@ -163,7 +163,7 @@ cd $HOME
 emped tx staking create-validator \
   --amount=1000000uempe \
   --pubkey=$(emped tendermint show-validator) \
-  --moniker "moniker" \
+  --moniker "VALİDATOR-İSMİNİZ" \
   --chain-id=empe-testnet-2 \
   --identity "" \
   --details "HerculesNode community" \
