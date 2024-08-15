@@ -158,6 +158,7 @@ emped keys add wallet-name
 ```
 # Faucet 
 [Empeiria testnet faucet](https://faucet-testnet.empe.io/#/)
+* diğer faucet : https://testnet.ping.pub/empe/faucet
 
 # Validator oluşturalım ( Son bloğa gelmeden oluşturmayın )
 
