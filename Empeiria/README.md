@@ -193,6 +193,37 @@ emped tx staking delegate VALİDATOR-ADRESİ amount000000uempe \
 --node=http://localhost:7757
 ```
 
+# Validatorünüzü sorgulayın
+```shell
+emped q staking validator $(emped keys show empedhercul --bech val -a)
+```
+
+# Kaçırdığınız blokları sorgulayın
+```shell
+emped q slashing signing-info $(emped tendermint show-validator)
+```
+
+# cüzdan Bakiyenizi sorgulayın
+```shell
+emped q bank balances $(0gchaind keys show CÜZDAN-İSMİNİZ -a)
+```
+
+# Aktif setteki Validatorlere bakın
+```shell
+emped q staking validators -o json --limit=1000 \
+| jq '.validators[] | select(.status=="BOND_STATUS_BONDED")' \
+| jq -r '.tokens + " - " + .description.moniker' \
+| sort -gr | nl
+```
+
+# Aktif Sette olmayan validatörlere bakın
+```shell
+emped q staking validators -o json --limit=1000 \
+| jq '.validators[] | select(.status=="BOND_STATUS_UNBONDED")' \
+| jq -r '.tokens + " - " + .description.moniker' \
+| sort -gr | nl
+```
+
 
 # NODU KALDIRIN #
 ```shell
