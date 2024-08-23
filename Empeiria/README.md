@@ -35,13 +35,13 @@ source $HOME/.bash_profile
 [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
 ```
 
-# Kurulum
+# Kurulum v0.2.2
 ```shell
 cd $HOME
 mkdir -p $HOME/.empe-chain/cosmovisor/genesis/bin
-wget https://github.com/empe-io/empe-chain-releases/raw/master/v0.1.0/emped_linux_amd64.tar.gz
-tar -xvf emped_linux_amd64.tar.gz
-rm -rf emped_linux_amd64.tar.gz
+wget https://github.com/empe-io/empe-chain-releases/raw/master/v0.2.2/emped_v0.2.2_linux_amd64.tar.gz
+tar -xvf emped_v0.2.2_linux_amd64.tar.gz
+rm -rf emped_v0.2.2_linux_amd64.tar.gz
 chmod +x emped
 ```
 ```shell
