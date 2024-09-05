@@ -195,7 +195,7 @@ emped tx staking delegate VALİDATOR-ADRESİ amount000000uempe \
 
 # Validatorünüzü sorgulayın
 ```shell
-emped q staking validator $(emped keys show empedhercul --bech val -a)
+emped q staking validator $(emped keys show CÜZDAN --bech val -a)
 ```
 
 # Kaçırdığınız blokları sorgulayın
