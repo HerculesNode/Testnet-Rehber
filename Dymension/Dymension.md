@@ -9,7 +9,7 @@ Hazırlayan:
 
 
 
-###Öncelikle https://playground.dymension.xyz/ sitesine girmek için ana ağda en az 5 DYM stake etmelisiniz. Bunun için siteye girdikten sonra size gerekli talimatları gösterecek. 
+### Öncelikle https://playground.dymension.xyz/ sitesine girmek için ana ağda en az 5 DYM stake etmelisiniz. Bunun için siteye girdikten sonra size gerekli talimatları gösterecek. 
 
 ### İhtiyaç olacak DYM ler:
 1- Domain almak için 5 adet
