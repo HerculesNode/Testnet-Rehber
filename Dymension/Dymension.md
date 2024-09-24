@@ -4,7 +4,7 @@ Hazırlayan:
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [Hercules Web](https://herculesnode.com)
- * [Dymension Discord]https://discord.gg/9zGfcRk2
+ * [Dymension Discord](https://discord.gg/9zGfcRk2)
 
 
 
