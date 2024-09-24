@@ -1,8 +1,13 @@
+Hazırlayan: 
 
 ###  🟢 Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [Hercules Web](https://herculesnode.com)
+ * [Dymension Discord]https://discord.gg/9zGfcRk2
+
+
+
 
 ###Öncelikle https://playground.dymension.xyz/ sitesine girmek için ana ağda en az 5 DYM stake etmelisiniz. Bunun için siteye girdikten sonra size gerekli talimatları gösterecek. 
 
@@ -12,6 +17,10 @@
 3- Squencer için 20 adet
 4- Ayrıca mocha ağında tia.
 ### Adresleri size kodlar çıktı olarak verecek.
+
+### Dym Discord adresine gidin $request cüzdan-adresi (dym....) yazarak faucet isteyin. 
+
+
 
 Benim oluşturduğum RollApp
 https://playground.dymension.xyz/rollapps/akirafudo_20433-1/dashboard
