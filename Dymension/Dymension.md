@@ -4,7 +4,14 @@
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [Hercules Web](https://herculesnode.com)
 
-Öncelikle https://playground.dymension.xyz/ sitesine girmek için ana ağda en az 5 DYM stake etmelisiniz. Bunun için siteye girdikten sonra size gerekli talimatları gösterecek. 
+###Öncelikle https://playground.dymension.xyz/ sitesine girmek için ana ağda en az 5 DYM stake etmelisiniz. Bunun için siteye girdikten sonra size gerekli talimatları gösterecek. 
+
+### İhtiyaç olacak DYM ler:
+1- Domain almak için 5 adet
+2- Stake yapmak için 10.1 adet
+3- Squencer için 20 adet
+4- Ayrıca mocha ağında tia.
+### Adresleri size kodlar çıktı olarak verecek.
 
 Benim oluşturduğum RollApp
 https://playground.dymension.xyz/rollapps/akirafudo_20433-1/dashboard
