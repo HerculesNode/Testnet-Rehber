@@ -15,10 +15,6 @@ Hazırlayan: [@omerbektasX ](https://t.me/omerbektasx)
 Rehber: https://github.com/HerculesNode/Testnet-Rehber/blob/main/Dymension/faucet.md
 
 
-#### 4- Eklediğiniz tokeni düzenleme
-/edit TOKEN ISMI RPC CHAINıd 
-
-
 
 ###  🟢 playground Kurulum işlemleri 
 
