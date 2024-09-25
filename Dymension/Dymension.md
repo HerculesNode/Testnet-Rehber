@@ -1,4 +1,4 @@
-Hazırlayan: @omerbektasX 
+Hazırlayan: [@omerbektasX ](https://t.me/omerbektasx)
 
 ###  🟢 Linkler
  * [Hercules Telegram](https://t.me/HerculesNode)
