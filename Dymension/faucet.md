@@ -10,7 +10,7 @@
 #### Bu adrese öncelikle tokeninizi yollayın istediğiniz kadar örnek 50K 
 0xD69BffCF9B5232F7bdB3377054e3968F62564CAE
 
-#### 1 - Tokeninizi bota ekleyin : add sonrası TOKEN ISMI RPC CHAINıd 
+#### 1 - Tokeninizi bota ekleyin : /add sonrası TOKEN ISMI RPC CHAINıd 
 örnek Komut : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238
 
 ![image](https://github.com/user-attachments/assets/7d159998-f18b-4293-9255-caae9b752bdb)
@@ -24,3 +24,8 @@
 #### 3- /send TOKEN 0xCüzdanAdresiniz  komutu ile faucet üzerinden token gönderin 
 
 ![image](https://github.com/user-attachments/assets/352e8cad-52b2-43aa-9485-03c7a9e404eb)
+
+#### 4- Eklediğiniz tokeni düzenleme
+/edit TOKEN ISMI RPC CHAINıd 
+
+![image](https://github.com/user-attachments/assets/a2daa741-6e01-4c6e-b5a2-c7e644a40f4a)
