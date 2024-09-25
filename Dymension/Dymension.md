@@ -228,11 +228,23 @@ roller relayer services load
 roller relayer services start
 ```
 
+# eIBC Client Başlatma ve Whale Hesabını Fonlama
+
+Bu adımlar, Dymension ağı üzerinde bir **whale** hesabı oluşturarak eIBC client'ını başlatmayı ve bu hesabı uygun denoms ile fonlamayı içerir. DYM fonlaması zorunludur, çünkü ağ üzerindeki işlem ücretlerini karşılamak için DYM gerekmektedir.
+
+## Adımlar
+
+### eIBC Client'ı Başlatma
+
+eIBC client'ını başlatmak için aşağıdaki komutu çalıştırın:
+
+```
+roller eibc init
+```
 
 ### eIBC İstemcisini Yapılandırın
 ### RollApp'ları Beyaz Listeye Alın
 ### İlk olarak, rollapp'ı beyaz listeye alarak başlayalım:  (roller eibc fulfill rollapps set xxx_1234-1 0.01)
-
 ```
 roller eibc fulfill rollapps set <rollapp_id> <fee-in-percentage>
 ```
