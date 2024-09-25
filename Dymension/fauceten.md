@@ -1,7 +1,7 @@
 ### 🟢 🟢 Distribute Faucet with the HerculesNode Telegram Token bot
 
 - #### HerculesNode Faucet Bot : https://web.telegram.org/k/#@HerculesDymension_bot  
-- You can distribute the tokens we created on #### playground with HerculesNode Telegram Faucet. You can distribute by giving the bot address to your friends.
+- #### You can distribute the tokens we created on  playground with HerculesNode Telegram Faucet. You can distribute by giving the bot address to your friends.
 
 
 ![image](https://github.com/user-attachments/assets/3a39c1d1-5f6a-472c-904b-8cbdb78e25a7)
