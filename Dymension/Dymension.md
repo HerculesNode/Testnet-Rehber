@@ -24,9 +24,9 @@ Mainnet Stake etme adresi : https://portal.dymension.xyz/
 
 
 
-Benim oluşturduğum RollApp
-https://playground.dymension.xyz/rollapps/akirafudo_20433-1/dashboard
-
+Hercules Team Rollap : 
+- @omerbektasX https://playground.dymension.xyz/rollapps/akirafudo_20433-1/dashboard - Token ismi :
+- @HerculesNode https://playground.dymension.xyz/rollapps/hercules_10238-1/dashboard - Token ismi : RUTE 
 
 İlk olarak sitemize giriyoruz. Resim domain ve roll app id giriyoruz. Burada isim uzunluğuna göre dym istiyor. Ekran görüntülerinde adım adım yapılacaklar var.
 
