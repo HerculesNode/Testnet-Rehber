@@ -10,6 +10,12 @@
 #### Bu adrese öncelikle tokeninizi yollayın istediğiniz kadar örnek 50K 
 0xD69BffCF9B5232F7bdB3377054e3968F62564CAE
 
+
+#### /help komutu ile komutlara bakabilirsiniz
+
+![image](https://github.com/user-attachments/assets/e1793816-fdd6-4abc-92f4-43c06b826573)
+
+
 #### 1 - Tokeninizi bota ekleyin : /add sonrası TOKEN ISMI RPC CHAINıd 
 örnek Komut : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238
 
