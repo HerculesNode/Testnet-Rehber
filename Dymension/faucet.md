@@ -7,6 +7,9 @@
 ![image](https://github.com/user-attachments/assets/3a39c1d1-5f6a-472c-904b-8cbdb78e25a7)
 
 
+#### Bu adrese öncelikle tokeninizi yollayın istediğiniz kadar örnek 50K 
+0xD69BffCF9B5232F7bdB3377054e3968F62564CAE
+
 #### 1 - Tokeninizi bota ekleyin : add sonrası TOKEN ISMI RPC CHAINıd 
 örnek Komut : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238
 
