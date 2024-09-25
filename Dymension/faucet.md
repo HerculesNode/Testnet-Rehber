@@ -27,9 +27,10 @@
 ![image](https://github.com/user-attachments/assets/1d5844a6-b704-4547-88d9-b4630c777ba8)
 
 
-#### 3- /send TOKEN 0xCüzdanAdresiniz  komutu ile faucet üzerinden token gönderin 
+#### 3- /send TOKEN 0xCüzdanAdresiniz  komutu ile faucet üzerinden token gönderin 10 tane gönderir
 
-![image](https://github.com/user-attachments/assets/352e8cad-52b2-43aa-9485-03c7a9e404eb)
+![image](https://github.com/user-attachments/assets/dfb383de-23f5-4574-aec2-c71552370e2e)
+
 
 #### 4- Eklediğiniz tokeni düzenleme
 /edit TOKEN ISMI RPC CHAINıd 
