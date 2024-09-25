@@ -1,7 +1,7 @@
 ###  🟢 HerculesNode Telegram Token botu ile Faucet dağıtın <br>
 
 - #### HerculesNode Faucet Bot : https://web.telegram.org/k/#@HerculesDymension_bot  
-- #### playground üzerinden oluşturduğumuz tokenlerin Faucet ile dağıtabilirsiniz
+- #### playground üzerinden oluşturduğumuz tokenlerin HerculesNode Telegram Faucet ile dağıtabilirsiniz. Bot adresini arkadaşlarınıza vererek dağıtım yapabilirsiniz.
 
 
 ![image](https://github.com/user-attachments/assets/3a39c1d1-5f6a-472c-904b-8cbdb78e25a7)
