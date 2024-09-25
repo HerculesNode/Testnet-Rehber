@@ -9,6 +9,15 @@ Hazırlayan: @omerbektasX
 ###  🟢 HerculesNode Team rollapps 
 - @omerbektasX https://playground.dymension.xyz/rollapps/akirafudo_20433-1/dashboard - Token ismi : AKIRA
 - @HerculesNode https://playground.dymension.xyz/rollapps/hercules_10238-1/dashboard - Token ismi : RUTE 
+- @eftayaksular https://playground.dymension.xyz/rollapps/yukovskiwars_10426-1/dashboard - Token ismi : WAR 
+
+###  🟢 HerculesNode Token Faucet
+- Telegram üzerinden oluşturduğumuz tokenlerin Faucet ile alabilirsiniz. 
+- HerculesNode Faucet : https://web.telegram.org/k/#@HerculesDymension_bot
+- Token alabilmek için botu başlatın ve `/send TOKEN 0xCüzdan` şeklinde komutu girin
+
+![image](https://github.com/user-attachments/assets/490823f5-8f0f-4891-bb03-5285567539e6)
+
 
 
 
