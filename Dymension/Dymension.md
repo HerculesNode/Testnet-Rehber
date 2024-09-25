@@ -288,7 +288,7 @@ roller relayer services restart
 roller rollapp services restart
 
 ### Ayrıca 
-journalctl -fu relayer
-journalctl -fu rollapp
-journalctl -fu eibc
+journalctl -fu relayer <br>
+journalctl -fu rollapp <br>
+journalctl -fu eibc <br>
 bu kodlar ile de bakabilirsiniz.
