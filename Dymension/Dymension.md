@@ -19,7 +19,7 @@ Hazırlayan: @omerbektasX
 ![image](https://github.com/user-attachments/assets/490823f5-8f0f-4891-bb03-5285567539e6)
 
 
-
+###  🟢 playground Kurulum işlemleri 
 
 ### Öncelikle https://playground.dymension.xyz/ sitesine girmek için ana ağda en az 5 DYM stake etmelisiniz. Bunun için siteye girdikten sonra size gerekli talimatları gösterecek. 
 
