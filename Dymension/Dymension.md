@@ -13,7 +13,7 @@ Hazırlayan: [@omerbektasX ](https://t.me/omerbektasx)
 
 ###  🟢 HerculesNode Telegram Token botu ile Faucet dağıtın <br>
 Rehber: https://github.com/HerculesNode/Testnet-Rehber/blob/main/Dymension/faucet.md
-
+Bot: https://t.me/HerculesDymension_bot
 
 
 ###  🟢 playground Kurulum işlemleri 
