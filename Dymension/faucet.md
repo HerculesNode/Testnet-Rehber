@@ -22,17 +22,21 @@
 ![image](https://github.com/user-attachments/assets/7d159998-f18b-4293-9255-caae9b752bdb)
 
 
-#### 2 - /info komutu ile tokeninizi bakiyesini kontrol edin
+#### 2 - /info komutu ile Bakiye Toplu sorgulama 
 
 ![image](https://github.com/user-attachments/assets/1d5844a6-b704-4547-88d9-b4630c777ba8)
 
+#### 3 - /info TOKEN komutu ile istediğiniz Tokenin Bakiyesini sorgulama 
 
-#### 3- /send TOKEN 0xCüzdanAdresiniz  komutu ile faucet üzerinden token gönderin 10 tane gönderir
+![image](https://github.com/user-attachments/assets/21a071ea-540f-484b-af6a-79db9c9cdfcd)
+
+
+#### 4- /send TOKEN 0xCüzdanAdresiniz  komutu ile faucet üzerinden token gönderin 10 tane gönderir
 
 ![image](https://github.com/user-attachments/assets/dfb383de-23f5-4574-aec2-c71552370e2e)
 
 
-#### 4- Eklediğiniz tokeni düzenleme
+#### 5- Eklediğiniz tokeni düzenleme
 /edit TOKEN ISMI RPC CHAINıd 
 
 ![image](https://github.com/user-attachments/assets/a2daa741-6e01-4c6e-b5a2-c7e644a40f4a)
