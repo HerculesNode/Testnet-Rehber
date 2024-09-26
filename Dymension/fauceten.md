@@ -1,6 +1,6 @@
 ### 🟢 🟢 Distribute Faucet with the HerculesNode Telegram Token bot
 
-- #### HerculesNode Faucet Bot : https://web.telegram.org/k/#@HerculesDymension_bot  
+- #### HerculesNode Faucet Bot : https://t.me/HerculesDymension_bot  
 - #### You can distribute the tokens we created on  playground with HerculesNode Telegram Faucet. You can distribute by giving the bot address to your friends.
 
 
@@ -39,5 +39,5 @@ example Command : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238
 
 #### 5- Give the bot address to the people you want to use the faucet with 
 
-https://web.telegram.org/k/#@HerculesDymension_bot
+https://t.me/HerculesDymension_bot
 
