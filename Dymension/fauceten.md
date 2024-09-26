@@ -26,18 +26,22 @@ example Command : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238
 
 ![image](https://github.com/user-attachments/assets/1d5844a6-b704-4547-88d9-b4630c777ba8)
 
+#### 4 - Query the balance of the desired token with the `/info TOKEN` command 
 
-#### 3- Send token via faucet with /send TOKEN 0xWalletAddress command sends 10 tokens
+![image](https://github.com/user-attachments/assets/21a071ea-540f-484b-af6a-79db9c9cdfcd)
+
+
+#### 5- Send token via faucet with /send TOKEN 0xWalletAddress command sends 10 tokens
 
 ![image](https://github.com/user-attachments/assets/dfb383de-23f5-4574-aec2-c71552370e2e)
 
 
-#### 4- Editing the token you added
+#### 6- Editing the token you added
 /edit TOKEN ISMI RPC CHAINıd 
 
 ![image](https://github.com/user-attachments/assets/a2daa741-6e01-4c6e-b5a2-c7e644a40f4a)
 
-#### 5- Give the bot address to the people you want to use the faucet with 
+#### 7- Give the bot address to the people you want to use the faucet with 
 
 https://t.me/HerculesDymension_bot
 
