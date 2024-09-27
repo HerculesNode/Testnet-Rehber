@@ -191,15 +191,6 @@ curl https://get.telebit.io/ | bash
 roller rollapp setup
 ```
 
-- Burada Telebit ile aldığımız adresleri gireceğiz ve en sonda uzun bir TX çıktısı almanız lazım yoksa çalışmaz.
-
-- Rpc kontrol etmek için resimdeki gibi çıktı almalısınız.
-
-```
-curl https://RPC-ADRESİNİZ/health
-```
-
-![image](https://github.com/user-attachments/assets/f40fb064-ccb8-4719-ab58-ad2f16202a23)
 
 
 ### Sequencer'ı başlatın: (Arka planda çalıştırma kodları)
@@ -210,6 +201,19 @@ roller rollapp services load
 ```
 roller rollapp services start
 ```
+
+### rpc kontrol
+
+- Burada Telebit ile aldığımız adresleri gireceğiz ve en sonda uzun bir TX çıktısı almanız lazım yoksa çalışmaz.
+
+- Rpc kontrol etmek için resimdeki gibi çıktı almalısınız.
+
+```
+curl https://RPC-ADRESİNİZ/health
+```
+
+![image](https://github.com/user-attachments/assets/f40fb064-ccb8-4719-ab58-ad2f16202a23)
+
 ### RollApp durumunu kontrol edin:
 
 ![dym8](https://github.com/user-attachments/assets/28f26749-b05c-42d2-aa02-561e15492cc6)
