@@ -24,7 +24,7 @@ example Command : <br> /add RUTE https://evm.ancient-parrot-24.telebit.io 10238 
 
 #### 2 - Check the balance of your token with the `/info` command
 
-![image](https://github.com/user-attachments/assets/1d5844a6-b704-4547-88d9-b4630c777ba8)
+![image](https://github.com/user-attachments/assets/0d5a7535-b305-42b7-9664-7d838f174d5c)
 
 #### 4 - Query the balance of the desired token with the `/info TOKEN` command 
 
