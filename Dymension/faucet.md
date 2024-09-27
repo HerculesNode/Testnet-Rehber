@@ -16,8 +16,8 @@
 ![image](https://github.com/user-attachments/assets/e1793816-fdd6-4abc-92f4-43c06b826573)
 
 
-#### 1 - Tokeninizi bota ekleyin : /add sonrası TOKEN ISMI RPC CHAINıd 
-örnek Komut : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238
+#### 1 - Tokeninizi bota ekleyin : /add sonrası TOKEN ISMI RPC CHAINıd rollappsLinki
+örnek Komut : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238 https://playground.dymension.xyz/rollapps/hercules_10238-1/dashboard
 
 ![image](https://github.com/user-attachments/assets/7d159998-f18b-4293-9255-caae9b752bdb)
 
@@ -37,6 +37,6 @@
 
 
 #### 5- Eklediğiniz tokeni düzenleme
-/edit TOKEN ISMI RPC CHAINıd 
+/edit TOKEN ISMI RPC CHAINıd RollappsLinki
 
 ![image](https://github.com/user-attachments/assets/a2daa741-6e01-4c6e-b5a2-c7e644a40f4a)
