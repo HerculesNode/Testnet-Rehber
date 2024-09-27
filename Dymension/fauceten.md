@@ -16,8 +16,8 @@
 ![image](https://github.com/user-attachments/assets/e1793816-fdd6-4abc-92f4-43c06b826573)
 
 
-#### 1 - Add your token to the bot : `/add after TOKEN ISMI RPC CHAINid` 
-example Command : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238
+#### 1 - Add your token to the bot : `/add after TOKEN ISMI RPC CHAINid rollappsLink` 
+example Command : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238 https://playground.dymension.xyz/rollapps/hercules_10238-1/dashboard
 
 ![image](https://github.com/user-attachments/assets/7d159998-f18b-4293-9255-caae9b752bdb)
 
@@ -37,7 +37,7 @@ example Command : /add RUTE https://evm.ancient-parrot-24.telebit.io 10238
 
 
 #### 6- Editing the token you added
-`/edit TOKEN RPC CHAINıd` 
+`/edit TOKEN RPC CHAINıd rollappsLink` 
 
 ![image](https://github.com/user-attachments/assets/a2daa741-6e01-4c6e-b5a2-c7e644a40f4a)
 
