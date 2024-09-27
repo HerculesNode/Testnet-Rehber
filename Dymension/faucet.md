@@ -24,7 +24,8 @@
 
 #### 2 - /info komutu ile Bakiye Toplu sorgulama 
 
-![image](https://github.com/user-attachments/assets/1d5844a6-b704-4547-88d9-b4630c777ba8)
+![image](https://github.com/user-attachments/assets/c2a04238-57ec-4ebb-b026-546fcebe8273)
+
 
 #### 3 - /info TOKEN komutu ile istediğiniz Tokenin Bakiyesini sorgulama 
 
