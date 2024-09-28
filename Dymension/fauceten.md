@@ -13,7 +13,7 @@
 
 #### You can look up commands with the command  `/help`
 
-![image](https://github.com/user-attachments/assets/e1793816-fdd6-4abc-92f4-43c06b826573)
+![image](https://github.com/user-attachments/assets/903eb51b-5471-40a9-9e82-8e85b00a56f2)
 
 
 #### 1 - Add your token to the bot : `/add after TOKEN ISMI RPC CHAINid rollappsLink` 
@@ -41,7 +41,16 @@ example Command : <br> /add RUTE https://evm.ancient-parrot-24.telebit.io 10238 
 
 ![image](https://github.com/user-attachments/assets/a2daa741-6e01-4c6e-b5a2-c7e644a40f4a)
 
-#### 7- Give the bot address to the people you want to use the faucet with 
+
+#### 7- If someone receives your token, the bot will notify you :)
+
+![image](https://github.com/user-attachments/assets/e2886bbc-cbf8-4189-937d-f6ca824d1e0d)
+
+
+#### 8- Give the bot address to the people you want to use the faucet with 
 
 https://t.me/HerculesDymension_bot
+
+
+
 
