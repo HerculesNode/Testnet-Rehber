@@ -47,6 +47,19 @@ example Command : <br> /add RUTE https://evm.ancient-parrot-24.telebit.io 10238 
 ![image](https://github.com/user-attachments/assets/e2886bbc-cbf8-4189-937d-f6ca824d1e0d)
 
 
+
+#### 8 - Transfer Dym Testnet
+
+![image](https://github.com/user-attachments/assets/7e303664-d61c-4181-9960-09362e7f922b)
+
+
+#### 9 - Swap Faucet Token
+
+
+![image](https://github.com/user-attachments/assets/0b5a7d5a-484c-4469-9ef8-29cb03375138)
+
+
+
 #### 8- Give the bot address to the people you want to use the faucet with 
 
 https://t.me/HerculesDymension_bot
