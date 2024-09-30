@@ -311,6 +311,12 @@ roller eibc funds
 
 ### Yararlı kodlar.
 
+### Status
+dymd status 2>&1 | jq
+
+### ibc
+dymd query ibc channel channels
+
 ### İbc yeniden başlatma.
 roller eibc services restart
 
