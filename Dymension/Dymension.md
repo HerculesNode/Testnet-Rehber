@@ -22,11 +22,12 @@ Bot: https://t.me/HerculesDymension_bot
 
 Mainnet Stake etme adresi : https://portal.dymension.xyz/
 
-### İhtiyaç olacak DYM ler:
-1- Domain almak için 5 adet ( isim )
-2- Stake yapmak için 10.1 adet
-3- Squencer için 20 adet
-4- Ayrıca mocha ağında tia gerekiyor Celestia discord adresinden alabilirsiniz. 
+### İhtiyaç olacak DYM ler: <br>
+1- Domain almak için 5 adet ( isim ) <br>
+2- Stake yapmak için 10.1 adet <br>
+3- Squencer için 20 adet <br>
+4- Ayrıca mocha ağında tia gerekiyor Celestia discord adresinden alabilirsiniz.  <br>
+
 ### Adresleri size kodlar çıktı olarak verecek.
 
 ### Dym Discord adresine gidin $request cüzdan-adresi (dym....) yazarak faucet isteyin. 
