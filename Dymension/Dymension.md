@@ -332,3 +332,48 @@ journalctl -fu relayer <br>
 journalctl -fu rollapp <br>
 journalctl -fu eibc <br>
 bu kodlar ile de bakabilirsiniz.
+
+
+### RPC sorgulama
+
+```
+curl https://RPC-ADRESİNİZ/health
+```
+
+![image](https://github.com/user-attachments/assets/f40fb064-ccb8-4719-ab58-ad2f16202a23)
+
+### Telebit Komutları  
+
+```
+telebit status
+```
+
+```
+telebit enable
+```
+
+```
+telebit disable
+```
+
+```
+telebit restart
+```
+
+```
+telebit list
+```
+
+```
+SYSTEMD_LOG_LEVEL=debug journalctl -xef --user-unit=telebit
+```
+
+### Telebit kaldır 
+
+```
+systemctl --user disable telebit; systemctl --user stop telebit
+rm -f ~/.config/systemd/user/telebit.service
+rm -rf ~/telebit ~/Applications/telebit
+rm -rf ~/.config/telebit ~/.local/share/telebit
+```
+
