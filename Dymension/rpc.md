@@ -16,7 +16,7 @@ sudo apt -qy upgrade
 sudo nano /etc/nginx/sites-enabled/dymrollapp-api
 ```
 
-- `dymrollapp-api.domainAdresiniz.com` burayı kendi domaininiz ile değiştirin içine aşağıdaki kodu yazıp kaydedelim
+- `dymrollapp-api.domainAdresiniz.com` burayı kendi domaininiz ile değiştirin içine aşağıdaki kodu yazıp kaydedelim Kaydetmek için : ctrl + x + Y
 
 ```
 server {
@@ -42,7 +42,7 @@ location / {
 sudo nano /etc/nginx/sites-enabled/dymrollapp-rpc
 ```
 
-- `dymrollapp-rpc.domainAdresiniz.com` burayı kendi domaininiz ile değiştirin içine aşağıdaki kodu yazıp kaydedelim
+- `dymrollapp-rpc.domainAdresiniz.com` burayı kendi domaininiz ile değiştirin içine aşağıdaki kodu yazıp kaydedelim Kaydetmek için : ctrl + x + Y
 
 ```
 server {
@@ -64,7 +64,7 @@ location / {
 sudo nano /etc/nginx/sites-enabled/dymrollapp-rpc
 ```
 
-- `dymrollapp-evm.domainAdresiniz.com` burayı kendi domaininiz ile değiştirin içine aşağıdaki kodu yazıp kaydedelim
+- `dymrollapp-evm.domainAdresiniz.com` burayı kendi domaininiz ile değiştirin içine aşağıdaki kodu yazıp kaydedelim Kaydetmek için : ctrl + x + Y
 
 ```
 sudo nano /etc/nginx/sites-available/dymrollapp-evm
@@ -97,3 +97,39 @@ sudo snap install --classic certbot
 ```
 sudo certbot --nginx --register-unsafely-without-email
 ```
+
+###  DYM metadata değiştirin
+
+- Burada Metadata export edin daha sonra `/root/.roller/rollapp/init/` bu klasöre girin orada `sequencer-metadata.json` dosyası olacak bunu açon ve yukarıda aldığınız domainleri yazın.
+
+```
+roller rollapp sequencer metadata export
+```
+
+###  DYM metadata kaydedin
+
+- Aşağıdaki kodu girin ve metadata güncelleyin 10 dakika sonra güncellenir. 
+
+```
+roller rollapp sequencer metadata update
+```
+
+###  Restart atın
+
+### ibc
+dymd query ibc channel channels
+
+### İbc yeniden başlatma.
+roller eibc services restart
+
+### relayer yeniden başlatma.
+roller relayer services restart
+
+### rollapp yeniden başlatma.
+roller rollapp services restart
+
+### Ayrıca 
+journalctl -fu relayer <br>
+journalctl -fu rollapp <br>
+journalctl -fu eibc <br>
+bu kodlar ile de bakabilirsiniz.
