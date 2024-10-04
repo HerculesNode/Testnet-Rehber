@@ -98,6 +98,19 @@ sudo snap install --classic certbot
 sudo certbot --nginx --register-unsafely-without-email
 ```
 
+
+### rpc kontrol
+
+- Yukarıda yaptığınız rpc adresini girin ve kontrol edin.
+- Rpc kontrol etmek için resimdeki gibi çıktı almalısınız.
+
+```
+curl https://RPC-ADRESİNİZ/health
+```
+
+
+
+
 ###  DYM metadata değiştirin
 
 - Burada Metadata export edin daha sonra `/root/.roller/rollapp/init/` bu klasöre girin orada `sequencer-metadata.json` dosyası olacak bunu açon ve yukarıda aldığınız domainleri yazın.
