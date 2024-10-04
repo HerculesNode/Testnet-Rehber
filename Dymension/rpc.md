@@ -1,8 +1,8 @@
 ###  öncelikle Domaininiz üzerinden 3 tane alan adı açacaksınız ve bunları sunucunuzun ip adresine yönlendireceksiniz. <br> Hosting varsa Cpanel üzerinden yapabilir yoksa domain aldığınız yerden alt ( sub domain şeklinde ekleyebilirsiniz
 
-- 1- dymrollapp-api.domainAdresiniz.co
-- 2- dymrollapp-evm.domainAdresiniz.co
-- 3- dymrollapp-rpc.domainAdresiniz.co
+- 1- dymrollapp-api.domainAdresiniz.com
+- 2- dymrollapp-evm.domainAdresiniz.com
+- 3- dymrollapp-rpc.domainAdresiniz.com
 
 ```
 sudo apt -q update
