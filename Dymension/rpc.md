@@ -61,7 +61,7 @@ location / {
 ###  EVM yapma
 
 ```
-sudo nano /etc/nginx/sites-enabled/dymrollapp-rpc
+sudo nano /etc/nginx/sites-enabled/dymrollapp-evm
 ```
 
 - `dymrollapp-evm.domainAdresiniz.com` burayı kendi domaininiz ile değiştirin içine aşağıdaki kodu yazıp kaydedelim Kaydetmek için : ctrl + x + Y
