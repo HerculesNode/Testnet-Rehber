@@ -19,6 +19,9 @@ curl https://raw.githubusercontent.com/dymensionxyz/roller/main/install.sh | bas
 roller version 
 ```
 
+![image](https://github.com/user-attachments/assets/bd2da1e6-8981-4897-a099-79a06b459a57)
+
+
 ###  4- Yeniden Başlatın
 
 ```
