@@ -27,3 +27,10 @@ roller version
 ```
 roller rollapp services start 
 ```
+
+
+### Log kontrol  
+journalctl -fu relayer <br>
+journalctl -fu rollapp <br>
+journalctl -fu eibc <br>
+bu kodlar ile de bakabilirsiniz.
