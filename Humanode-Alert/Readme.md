@@ -8,9 +8,9 @@
 
 ###  🟢 Update ve gereklilikler
 ```
-sudo add-apt-repository ppa:openjdk-r/ppa
+screen -S humanalert
 apt update && apt upgrade -y
-sudo apt-get install openjdk-17-jdk
+sudo apt install openjdk-17-jdk
 ```
 
 ###  🟢 Sunucuya alert kurulumu
