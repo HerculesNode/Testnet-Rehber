@@ -56,3 +56,10 @@ services:
 docker compose up -d
 ```
 
+## 🟢 Kullanımı 
+- http://İP-ADRESİNİZ:3010 
+- Kullanıcı adresiniz ve şifreniz ile giriş yapın.
+
+
+
+
