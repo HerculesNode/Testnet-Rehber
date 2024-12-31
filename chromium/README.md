@@ -11,6 +11,7 @@
 
 ## 🟢 Ön Bilgilendirme
 - Bu araç ubuntu sunucunuzda chrome kullanmanıza yarar
+- Docker kurulu olması gerekiyor
 
 
 ## 🟢 kurulum
@@ -25,6 +26,8 @@ cd chromium
 ```shell
 nano docker-compose.yaml
 ```
+
+- Kullanıcı adınızı ve şifrenizi alttaki dosyaya yazın CTRL + X + Y ile kaydedin.
 
 ```shell
 ---
