@@ -148,5 +148,7 @@ Bazı ağ yoğunlukları nedeniyle başarısız girişimler olabilir, ancak birk
 Bu adımları takip ettiğinizde Puanlarınız her 24 saat veya daha uzun bir sürede güncellenecektir.
 
 Kullanıcı Puanları: Kendi domain’iniz veya diğer domain’lerle sohbet ederek kazanılır.
+
 Node Puanları: Düğümünüzün çevrimiçi kalması ve bağlı olduğu domain ile sohbet etmesi ile kazanılır.
+
 Eğer yerel bir bilgisayar (Windows veya Linux) kullanıyorsanız, düğümünüzü ve sohbet botunu her gün yeniden çalıştırabilirsiniz
