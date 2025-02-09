@@ -9,7 +9,9 @@ Gaia XP programında, Gaia AI Ajanları ile etkileşim kurarak ve Gaia düğüml
 
 ## 🟢Cüzdanınızı Gaia Gösterge Paneli ile bağlayın ve kaydınızı tamamlayın.
 -https://gaianet.ai/reward?invite_code=R7jjji
+
 -XP’nizi artırmak için bu davet kodunu kullanın: R7jjji
+
 -Ödüller Özeti bölümündeki sosyal görevleri tamamlayın.
 
 ## 🟢Gaia Düğümü Kurulumu
@@ -120,7 +122,7 @@ Python Script’i İndirin:
 Terminalde aşağıdaki komutu çalıştırın:
 
 
-curl -L -o gaiabot.py https://github.com/herculesnode/Gaia/raw/main/bot.py
+curl -L -o gaiabot.py https://raw.githubusercontent.com/HerculesNode/Testnet-Rehber/refs/heads/main/Gaia/bot.py
 Script’i Çalıştırın:
 Bir önceki işlemleri screen içinde yaptıysanız screen den ctrl a d ile çıkın tekrar screen oluşturun
 
@@ -128,7 +130,7 @@ Terminalde bir screen açarak botu arka planda çalıştırın:
 screen -S gaiabot
 Botu başlatın:
 ```shell
-python3 bot.py
+python3 gaiabot.py
 ```
 Gaia API anahtarınızı girin.
 Screen’i küçültmek için Ctrl+A+D tuşlarına basın.
