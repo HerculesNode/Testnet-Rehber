@@ -26,15 +26,11 @@ Qwen2 0.5B Instruct modelini çalıştırabilmek için aşağıdaki sistem gerek
 
 
 CPU: 4 çekirdek
+
 RAM: 8GB
+
 Depolama: 10GB
-Windows Kullanıcıları İçin:
 
-Windows’ta WSL’yi etkinleştirerek Ubuntu yüklemelisiniz. Bu kılavuzu takip edin.
-Linux/VPS Kullanıcıları İçin:
-
-Kılavuzu takip ederek kuruluma devam edebilirsiniz.
-VPS kullanıyorsanız, Windows’a da kurulum yaparak daha fazla GaiaPoints kazanabilirsiniz.
 
 ## 🟢 2. Bağımlılıkları Kurma
 Paketleri güncelleyin:
@@ -103,8 +99,10 @@ gaianet init
 gaianet start
 ```
 Node Ayarları sayfasına gidin.
+
 Aktif düğümünüzün yanındaki üç noktaya tıklayın ve Join Domain seçeneğini seçin.
 Sonraki adımları takip edin.
+
 pengu.gaia.domain adlı domain’i arayın ve katılın. Pengu ya katılamayanlar başka domain seçebilir.
 
 ## 🟢8. Düğümünüzle Sohbet Edin
@@ -122,13 +120,16 @@ Python Script’i İndirin:
 
 Terminalde aşağıdaki komutu çalıştırın:
 
-
+```shell
 curl -L -o gaiabot.py https://raw.githubusercontent.com/HerculesNode/Testnet-Rehber/refs/heads/main/Gaia/bot.py
+```
 Script’i Çalıştırın:
 Bir önceki işlemleri screen içinde yaptıysanız screen den ctrl a d ile çıkın tekrar screen oluşturun
 
 Terminalde bir screen açarak botu arka planda çalıştırın:
+```shell
 screen -S gaiabot
+```
 Botu başlatın:
 ```shell
 python3 gaiabot.py
