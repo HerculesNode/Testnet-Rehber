@@ -80,11 +80,12 @@ gaianet stop
 ```
 
 ## 🟢 6. Düğümü Gaia Gösterge Paneline Kaydetme
-Node ID ve Device ID bilgilerini almak için şu komutu çalıştırın: https://www.gaianet.ai/setting/nodes sayfasında connect new node dediğinizde bu bilgileri gireceksiniz.
+Node ID ve Device ID bilgilerini almak için şu komutu çalıştırın: 
 
 ```shell
 gaianet info
 ```
+https://www.gaianet.ai/setting/nodes sayfasında connect new node dediğinizde bu bilgileri gireceksiniz.
 
 ## 🟢 7. Bir Domain’e Katılma
 
