@@ -24,6 +24,7 @@ Aşağıdaki adımları izleyerek Node Puanları ve Kullanıcı Puanları kazana
 ## 🟢 1. Sistem Gereksinimleri
 Qwen2 0.5B Instruct modelini çalıştırabilmek için aşağıdaki sistem gereksinimlerini karşılamanız gerekir:
 
+
 CPU: 4 çekirdek
 RAM: 8GB
 Depolama: 10GB
