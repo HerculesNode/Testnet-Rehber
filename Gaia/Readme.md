@@ -1,5 +1,5 @@
 ### Linkler
- * [Hercules Telegram](https://t.me/HerculesNode)
+ * [Hercules Telegram](https://t.me/HerculesNodeTG)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
  * [Gaia Discord](https://discord.com/invite/gaianet-ai)
  * [Gaia Portal](https://gaianet.ai/reward?invite_code=R7jjji)
