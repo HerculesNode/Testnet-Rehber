@@ -104,7 +104,7 @@ Node Ayarları sayfasına gidin.
 Aktif düğümünüzün yanındaki üç noktaya tıklayın ve Join Domain seçeneğini seçin.
 Sonraki adımları takip edin.
 
-herculesnode.gaia.domains veya qavurdagli.gaia.domains adlı domain’i arayın ve katılın. Pengu ya katılamayanlar başka domain seçebilir.
+herculesnode.gaia.domains veya qavurdagli.gaia.domains adlı domain’i arayın ve katılın. Bunlara katılamayanlar başka domain seçebilir.
 
 ## 🟢8. Düğümünüzle Sohbet Edin
 Düğümünüzle etkileşime geçmek ve XP kazanmak için: Pengu Gaia Domain adresini ziyaret edin.
