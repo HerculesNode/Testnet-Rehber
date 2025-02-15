@@ -107,7 +107,7 @@ Sonraki adımları takip edin.
 herculesnode.gaia.domains veya qavurdagli.gaia.domains adlı domain’i arayın ve katılın. Bunlara katılamayanlar başka domain seçebilir.
 
 ## 🟢8. Düğümünüzle Sohbet Edin
-Düğümünüzle etkileşime geçmek ve XP kazanmak için: Pengu Gaia Domain adresini ziyaret edin.
+Düğümünüzle etkileşime geçmek ve XP kazanmak için: herculesnode Gaia Domain adresini ziyaret edin.
 
 Sohbet etmek için Kredi Bakiyesi gereklidir.
 GaiaPoints’lerinizi her gün Kredi Bakiyesi’ne dönüştürün.
