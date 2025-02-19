@@ -38,13 +38,15 @@ Bridge için https://routernitro.com/swap kullanılabilir.
 Next Step deyip aldığınız domaini seçiyorsunuz. Tekrar Next deyip aldığınız domaini seçiyorsunuz. 
 
 ## 🟢Sonraki adımda sizden model seçmenizi isteyecek o adımda model seçiyoruz. 
+[Repomuzda](https://github.com/HerculesNode/Testnet-Rehber/tree/main/Gaia) Qwen2-0.5B-Instruct-Q5_K_M seçili olduğu için bunu seçebilirsiniz.
 ## 🟢Node nizde hangi model seçiliyse onu seçebilirsiniz. Ya da daha iyi bir model seçip nodeyi yükseltebilirsiniz.
-## 🟢Model değiştirme işlemi sonradan ticket açarak yapabilirsiniz.
 
-## 🟢Sonra [bu ] (https://www.gaianet.ai/setting/nodes) sayfadan node nizi join domain diyerek kendi domaininize kaydediyorsunuz. 
+Sonradan Model değiştirmek isterseniz Dc den ticket açmalısınız.
+
+## 🟢Sonra [bu](https://www.gaianet.ai/setting/nodes) sayfadan node nizi join domain diyerek kendi domaininize kaydediyorsunuz. 
 
 
-**Ayrıca bu sayfadan [domaininize] (https://www.gaianet.ai/domain-management/domain) gelip sağ üstteki üç noktadan ayarları yapabilirsiniz.**
+**Ayrıca [bu](https://www.gaianet.ai/domain-management/domain) sayfadan domaininize gelip sağ üstteki üç noktadan ayarları yapabilirsiniz.**
 ## 🟢Domain ayarlarından management kısmında davetleri otomatik ya da manuel olarak ayarlayabilirsiniz.
 ![4](https://github.com/user-attachments/assets/e66a56df-d24b-409f-9d31-c33bd2e81ffa)
 
