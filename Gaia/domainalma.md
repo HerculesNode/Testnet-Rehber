@@ -16,7 +16,7 @@ Almak istediğini seçin.
 ## 🟢Eth ağında işlem yapılıyor. Borsadan usdt veya usdc gönderecekler için base ağına atılıp oradan  eth ağına atılabilir. 
 Bridge için https://routernitro.com/swap kullanılabilir.
 
-Şimdi yüzde 10 indirim var. Ayrıca R7jjji kodu ile yüzde 5 daha indirim alabilirsiniz.
+Şimdi yüzde 10 indirim var. Ayrıca **R7jjji** kodu ile yüzde 5 daha indirim alabilirsiniz.
 
 
 
