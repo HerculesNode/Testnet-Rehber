@@ -23,7 +23,7 @@ Bridge için https://routernitro.com/swap kullanılabilir.
 
 ## 🟢Ödeme işlemleri için 170 usdc veya usdt ve eth bulundurun. Ortalama fee ye göre 4 5 dolar gidiyor.
 
-## 🟢Sonra tekrar [domain] (https://www.gaianet.ai/gaia-domain-name) sayfasına gelip almak istediğiniz domaini yazıyoruz.
+## 🟢Sonra tekrar [domain](https://www.gaianet.ai/gaia-domain-name) sayfasına gelip almak istediğiniz domaini yazıyoruz.
 ## 🟢Aşağıda ödeme adımı çıkacak. Orada ödeme yaptığımız için bize 200 dolar indirim kuponu tanımlanacak. Sonrasında tekrar onay ve ödeme aşaması için cüzdandan onay veriyoruz. 
 
 
