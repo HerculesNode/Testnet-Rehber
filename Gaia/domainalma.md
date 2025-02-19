@@ -6,16 +6,19 @@
 
 
 
+
 ## 🟢[Domain](https://www.gaianet.ai/gaia-domain-name) sayfasına giriyoruz
 
-![İstediğiniz Domaini seçiyoruz.] (‪C:\Users\omer\Desktop\1.png)
+Almak istediğini seçin.
+![1](https://github.com/user-attachments/assets/7607ec90-fa17-4ba2-a943-03d28c9d09d9)
+
 
 ## 🟢Eth ağında işlem yapılıyor. Borsadan usdt veya usdc gönderecekler için base ağına atılıp oradan  eth ağına atılabilir. 
 Bridge için https://routernitro.com/swap kullanılabilir.
 
 Şimdi yüzde 10 indirim var. Ayrıca R7jjji kodu ile yüzde 5 daha indirim alabilirsiniz.
 
-![Son durum bu şekilde oluyor..] (‪C:\Users\omer\Desktop\2.png)
+
 
 ## 🟢Ödeme işlemleri için 170 usdc veya usdt ve eth bulundurun. Ortalama fee ye göre 4 5 dolar gidiyor.
 
@@ -26,7 +29,8 @@ Bridge için https://routernitro.com/swap kullanılabilir.
 ## 🟢Şimdi sıra domain launch etme kısmında. 
 [Bu](https://www.gaianet.ai/domain-management/domain) sayfadan girip LAUNCH DOMAİN diyoruz.
 
-![Resim] (‪C:\Users\omer\Desktop\3.png)
+![3](https://github.com/user-attachments/assets/141e42f3-ef4d-44df-8e08-aeafd9a47725)
+
 
 
 ## 🟢Display Name  ve Description kısmını istediğiniz gibi doldurabilirsiniz.
@@ -37,10 +41,12 @@ Next Step deyip aldığınız domaini seçiyorsunuz. Tekrar Next deyip aldığı
 ## 🟢Model değiştirme işlemi sonradan ticket açarak yapabilirsiniz.
 
 ## 🟢Sonra [bu ] (https://www.gaianet.ai/setting/nodes) sayfadan node nizi join domain diyerek kendi domaininize kaydediyorsunuz. 
+
+
+**Ayrıca bu sayfadan [domaininize] (https://www.gaianet.ai/domain-management/domain) gelip sağ üstteki üç noktadan ayarları yapabilirsiniz.**
 ## 🟢Domain ayarlarından management kısmında davetleri otomatik ya da manuel olarak ayarlayabilirsiniz.
+![4](https://github.com/user-attachments/assets/e66a56df-d24b-409f-9d31-c33bd2e81ffa)
 
-
-![Resim] (‪C:\Users\omer\Desktop\4.png)
 
 
 **Eğer manuel yaptıysanız [bu](https://www.gaianet.ai/setting/domain-info?domain=674&tab=join_request) sayfadan istekleri görebilirsiniz.**
