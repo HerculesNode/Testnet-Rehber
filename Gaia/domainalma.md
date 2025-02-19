@@ -18,6 +18,7 @@ Bridge için https://routernitro.com/swap kullanılabilir.
 
 Şimdi yüzde 10 indirim var. Ayrıca **R7jjji** kodu ile yüzde 5 daha indirim alabilirsiniz.
 
+![2](https://github.com/user-attachments/assets/2192c287-40b8-4a0a-bb6b-6aad15c2a6ca)
 
 
 ## 🟢Ödeme işlemleri için 170 usdc veya usdt ve eth bulundurun. Ortalama fee ye göre 4 5 dolar gidiyor.
