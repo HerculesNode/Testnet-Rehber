@@ -2,7 +2,7 @@ import requests
 import random
 import time
 import logging
-from typing import List
+import threading
 
 # Configure logging
 logging.basicConfig(
@@ -15,11 +15,16 @@ logging.basicConfig(
 )
 
 # Configuration
-BASE_URL = "https://herculesnode.gaia.domains"
-MODEL = "qwen2-0.5b-instruct"
-MAX_RETRIES = 100  # Essentially infinite retries
-RETRY_DELAY = 5  # Seconds between retries
-QUESTION_DELAY = 1  # Seconds between successful questions
+BASE_URL = "https://hercules.gaia.domains"
+MODEL = "Qwen2-0.5B-Instruct-Q5_K_M"
+QUESTION_DELAY = 5  # 5 seconds delay between question dispatches
+
+API_KEYS = [
+    "1.API",
+   # "2.API", ikinci veya 3. api ekleyecekseniz # ı silip api yi yazın.
+   # "3.API"
+
+]
 
 QUESTIONS = [
 "How to design and build websites using no-code." ,
@@ -327,10 +332,10 @@ QUESTIONS = [
 "How do I implement database-driven data privacy and security in no-code?" ,
 "How do I implement database-driven data archiving and data retention in no-code?" ,
 "How do I implement database-driven data migration and data transfer in no-code?" ,
-"How do I implement database-driven data reporting and data visualization in no-code?"
+"How do I implement database-driven data reporting and data visualization in no-code?",
 ]
 
-def chat_with_ai(api_key: str, question: str) -> str:
+def chat_with_ai(api_key: str, question: str):
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}"
@@ -346,61 +351,44 @@ def chat_with_ai(api_key: str, question: str) -> str:
         "temperature": 0.7
     }
 
-    for attempt in range(MAX_RETRIES):
-        try:
-            logging.info(f"Attempt {attempt+1} for question: {question[:50]}...")
-            response = requests.post(
-                f"{BASE_URL}/v1/chat/completions",
-                headers=headers,
-                json=data,
-                timeout=30
-            )
+    try:
+        response = requests.post(
+            f"{BASE_URL}/v1/chat/completions",
+            headers=headers,
+            json=data,
+            timeout=30
+        )
 
-            if response.status_code == 200:
-                return response.json()["choices"][0]["message"]["content"]
+        if response.status_code == 200:
+            result = response.json()["choices"][0]["message"]["content"]
+        else:
+            result = f"API Error ({response.status_code}): {response.text}"
+    except Exception as e:
+        result = f"Request failed: {str(e)}"
+    
+    print(f"Answer to '{question}':\n{result}\n")
+    logging.info(f"Response for '{question}': {result}")
 
-            logging.warning(f"API Error ({response.status_code}): {response.text}")
-            time.sleep(RETRY_DELAY)
-
-        except Exception as e:
-            logging.error(f"Request failed: {str(e)}")
-            time.sleep(RETRY_DELAY)
-
-    raise Exception("Max retries exceeded")
-
-def run_bot(api_key: str):
-    while True:  # Outer loop to repeat the questions indefinitely
+def run_bot():
+    api_index = 0  # Index to track which API key to use
+    while True:  # Infinite loop to keep the bot running
         random.shuffle(QUESTIONS)
-        logging.info(f"Starting chatbot with {len(QUESTIONS)} questions in random order")
-
         for i, question in enumerate(QUESTIONS, 1):
-            logging.info(f"\nProcessing question {i}/{len(QUESTIONS)}")
+            api_key = API_KEYS[api_index % len(API_KEYS)]  # Rotate API keys
+            api_index += 1
+
+            logging.info(f"\nDispatching question {i}/{len(QUESTIONS)}")
             logging.info(f"Question: {question}")
-
-            start_time = time.time()
-            try:
-                response = chat_with_ai(api_key, question)
-                elapsed = time.time() - start_time
-
-                # Print the entire response
-                print(f"Answer to '{question[:50]}...':\n{response}")
-
-                logging.info(f"Received full response in {elapsed:.2f}s")
-                logging.info(f"Response length: {len(response)} characters")
-
-                # Ensure the script waits for the full response before proceeding
-                time.sleep(QUESTION_DELAY)  # Wait before asking next question
-
-            except Exception as e:
-                logging.error(f"Failed to process question: {str(e)}")
-                continue
+            logging.info(f"Using API Key Index: {api_index % len(API_KEYS)}")
+            
+            threading.Thread(target=chat_with_ai, args=(api_key, question)).start()
+            time.sleep(QUESTION_DELAY)  # Wait before dispatching the next question
 
 def main():
     print("Title: GaiaAI Chatbot")
-    print("Created by: HerculesNode")
-    print("Twitter: https://x.com/herculesnode")
-    api_key = input("Enter your API key: Gaia ile baslayacak ")
-    run_bot(api_key)
+    print("Created by: Akira")
+    print("Twitter: https://x.com/BtcBossX")
+    run_bot()
 
 if __name__ == "__main__":
     main()
