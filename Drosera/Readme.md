@@ -207,9 +207,10 @@ journalctl -u drosera -f
 
 ## 🔗 Operator Bağlantısı
 
-https://app.drosera.io adresine gidin, Trap detaylarına girin ve "Opt-in" butonuna tıklayarak operator adresinizi trap'e bağlayın.
+https://app.drosera.io adresine gidin, Trap detaylarına girin ve "Opt-in" butonuna tıklayarak operator adresinizi trap'e bağlayın. Eğer Register işlemini yapmadıysanız Opt-in yapamazsınız.
 
 ---
+![image](https://github.com/user-attachments/assets/c7fbf68b-cb87-44d3-95d9-a98fd75257aa)
 
 ## 🔺 Node Durumu
 
