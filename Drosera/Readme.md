@@ -195,7 +195,10 @@ https://app.drosera.io adresine gidin, Trap detaylarına girin ve "Opt-in" buton
 ![image](https://github.com/user-attachments/assets/c7fbf68b-cb87-44d3-95d9-a98fd75257aa)
 
 ## 🔺 Node Durumu
-
+**Tüm işlemler bitince tekrar başlatın.**
+```bash
+sudo systemctl restart drosera
+```
 Dashboard'da yeşil bloklar oluşmaya başladıysa node'unuz başarılı şekilde çalışıyor demektir.
 
 ---
