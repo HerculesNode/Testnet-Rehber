@@ -137,7 +137,7 @@ drosera-operator --version
 docker pull ghcr.io/drosera-network/drosera-operator:latest
 ```
 
-### Operator Kaydı
+### Operator Kaydı-Sonra Private_KEY yerine keyi yazın.
 ```bash
 drosera-operator register --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com --eth-private-key PRIVATE_KEY
 ```
