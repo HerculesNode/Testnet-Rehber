@@ -134,9 +134,9 @@ sudo ufw enable
 
 ---
 
-## 🚀 Operator Başlatma
+## 🚀 Operator Başlatma  ( 2 çeşit kurulum var ister Docker ister SystemD ikisini bir kurmayın hangisi size uygunsa onunla yapın ) 
 
-### Docker Yöntemi
+### 1. kurulum Docker Yöntemi
 ```bash
 git clone https://github.com/0xmoei/Drosera-Network
 cd Drosera-Network
@@ -151,7 +151,7 @@ docker compose up -d
 docker logs -f drosera-node
 ```
 
-### SystemD Yöntemi             VPS_IP        PRIVATE_KEY    bilgilerini giriyoruz. İsterseniz Alchemy den kendinize özel rpc alabilirsiniz. Onu da rpc-url kısmına yazabilirsiniz.
+### 2. kurulum SystemD Yöntemi             VPS_IP        PRIVATE_KEY    bilgilerini giriyoruz. İsterseniz Alchemy den kendinize özel rpc alabilirsiniz. Onu da rpc-url kısmına yazabilirsiniz.
 ```bash
 sudo tee /etc/systemd/system/drosera.service > /dev/null <<EOF
 [Unit]
