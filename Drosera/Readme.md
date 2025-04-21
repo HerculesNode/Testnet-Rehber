@@ -12,6 +12,7 @@ Bu rehberde Drosera testnet ağına nasıl katkıda bulunabileceğinizi adım ad
 1. CLI kurulumları
 2. Trap (tuzak) kurulumu
 3. Operator (operatör) bağlantısı
+4. Docker ve SystemD ile kurulum 
 
 ---
 
