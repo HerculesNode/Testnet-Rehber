@@ -114,6 +114,7 @@ Panelden trap'inizi açın ve "Send Bloom Boost" butonuna tıklayarak biraz Hole
 cd my-drosera-trap
 nano drosera.toml
 ```
+En alttaki private yi private_trap yapın address aynı kalacak operator_address yerine kendi mm adresini yazacaksınz. Tırnaklar kalacak.
 ```toml
 private_trap = true
 whitelist = ["Operator_Address"]
