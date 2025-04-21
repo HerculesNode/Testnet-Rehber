@@ -103,13 +103,11 @@ https://app.drosera.io adresine giderek
 
 Panelden trap'inizi açın ve "Send Bloom Boost" butonuna tıklayarak biraz Holesky ETH gönderin.
 
-```bash
-drosera dryrun
-```
+![image](https://github.com/user-attachments/assets/16ee2f5c-c4fe-4501-8ba9-5efa5e16dbe5)
+
 
 ---
 
-## 🛠️ Operator Kurulumu
 
 ### Whitelist Ayarları
 ```bash
