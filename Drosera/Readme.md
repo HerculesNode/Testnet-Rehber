@@ -189,10 +189,17 @@ ExecStart=$(which drosera-operator) node --db-file-path $HOME/.drosera.db \
 [Install]
 WantedBy=multi-user.target
 EOF
-
+```
+```bash
 sudo systemctl daemon-reload
+```
+```bash
 sudo systemctl enable drosera
+```
+```bash
 sudo systemctl start drosera
+```
+```bash
 journalctl -u drosera -f
 ```
 
