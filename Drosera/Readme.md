@@ -151,7 +151,7 @@ docker compose up -d
 docker logs -f drosera-node
 ```
 
-### SystemD Yöntemi
+### SystemD Yöntemi             VPS_IP        PRIVATE_KEY    bilgilerini giriyoruz. İsterseniz Alchemy den kendinize özel rpc alabilirsiniz. Onu da rpc-url kısmına yazabilirsiniz.
 ```bash
 sudo tee /etc/systemd/system/drosera.service > /dev/null <<EOF
 [Unit]
