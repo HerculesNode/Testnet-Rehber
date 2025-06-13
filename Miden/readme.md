@@ -71,7 +71,7 @@ miden account -l
 
 ## 💰 Faucet'ten Token Alın
 
-1. Siteye gidin:(https://faucet.testnet.miden.io/)]
+1. Siteye gidin:(https://faucet.testnet.miden.io/)
 2. Faucet id adresinizi girin." miden account -l " ile Address kısmındaki address
 3. "Send Private Note" seçeneğine tıklayın.  
 4. İndirilen `note.mno` dosyasını kaydedin.
