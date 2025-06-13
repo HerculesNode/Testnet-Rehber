@@ -2,7 +2,7 @@
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNodeTG)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
- * [Miden Twitter](https://x.com/0xMidenk)
+ * [Miden Twitter](https://x.com/0xMiden)
 
 💡 Miden Nedir?
 Miden, client-side (istemci taraflı) çalışan bir blokzincirdir. Yani kullanıcılar işlemlerini merkeziyetsiz biçimde kendileri işleyip ispatlayabilir. Bu yaklaşım sayesinde işlem yükü ağdan alınarak kullanıcıya kaydırılır.
