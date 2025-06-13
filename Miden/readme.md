@@ -65,7 +65,7 @@ miden account -l
 ```
 ![miden1](https://github.com/user-attachments/assets/f940972a-32d5-45c2-9f85-1bd787016627)
 
-Çıktıdaki **Account ID** değerini not edin. Burada adres ile token isteyeceğiz.
+Çıktıdaki **Account ID** değerini not edin. Addresi de not edin bu adres ile token isteyeceğiz.
 
 ---
 
