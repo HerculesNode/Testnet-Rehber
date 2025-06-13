@@ -19,7 +19,7 @@ mkdir datagram
 cd datagram
 ```
 ```
-https://raw.githubusercontent.com/HerculesNode/Testnet-Rehber/refs/heads/main/Datagram/datagram-installer.sh
+wget -O datagram-installer.sh https://raw.githubusercontent.com/HerculesNode/Testnet-Rehber/refs/heads/main/Datagram/datagram-installer.sh
 ```
 ```
 chmod +x datagram-installer.sh
