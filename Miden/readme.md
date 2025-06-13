@@ -133,7 +133,7 @@ miden account --show <Account-ID>
 
 ## 🔗 Kaynaklar
 
-- [Miden GitHub]([https://github.com/mir-protocol/miden](https://github.com/0xMiden))
+- [Miden GitHub](https://github.com/0xMiden)
 - [Faucet](https://faucet.testnet.miden.io/)
 
 
