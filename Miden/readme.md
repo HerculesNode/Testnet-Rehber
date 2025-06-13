@@ -15,8 +15,18 @@ Miden, client-side (istemci taraflı) çalışan bir blokzincirdir. Yani kullan�
 
 ## 📦 Kurulum
 
-### 1. Gerekli dizini oluşturun
+### 1. Screen içinde işlemleri yapalım. Rustc yükleyelim (1 e tıklayın) Gerekli dizini oluşturun
 
+
+```bash
+screen -S miden
+```
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+```bash
+source $HOME/.cargo/env
+```
 ```bash
 mkdir miden-client
 cd miden-client
@@ -53,17 +63,19 @@ Bu komut, testnet yapılandırmasıyla `miden-client.toml` dosyasını oluşturu
 miden new-wallet --mutable
 miden account -l
 ```
+![miden1](https://github.com/user-attachments/assets/f940972a-32d5-45c2-9f85-1bd787016627)
 
-Çıktıdaki **Account ID** değerini not edin.
+Çıktıdaki **Account ID** değerini not edin. Burada adres ile token isteyeceğiz.
 
 ---
 
 ## 💰 Faucet'ten Token Alın
 
 1. Siteye gidin: [https://faucet.miden.xyz](https://faucet.miden.xyz)  
-2. Account ID’nizi girin.  
+2. Fuacet id adresinizi girin." miden account -l " ile Address kısmındaki address
 3. "Send Private Note" seçeneğine tıklayın.  
 4. İndirilen `note.mno` dosyasını kaydedin.
+5. Kaydettiğiniz dosyayı sunucuya atın.
 
 ---
 
@@ -73,7 +85,7 @@ miden account -l
 miden import <dosya-yolu>/note.mno
 miden notes
 ```
-
+Succesfully imported note olarak gözükecektir.
 Not “Expected” olarak listelenecektir. İşlemi tamamlamak için ağı senkronize etmeniz gerekir.
 
 ---
@@ -91,7 +103,7 @@ miden sync
 ```bash
 miden consume-notes --account <Account-ID> <Note-ID>
 ```
-
+## 🔓 Faucet aldığınız zaman aşağıda kodlar direk çıkıyor.
 Not durumu önce `Processing` olarak görünür. Ağı tekrar senkronize edin:
 
 ```bash
