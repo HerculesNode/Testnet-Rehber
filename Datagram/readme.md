@@ -30,17 +30,17 @@ sudo bash datagram-installer.sh
 ```
 Burada size key soracak onu girdikten sonra enter deyin. Datagram servis dosyası arka planda çalışacak.
 
-restart-datagram                         # Restart service
+**restart-datagram**                         # Restart service
 
-status-datagram                          # Check online/offline and connection status
+**status-datagram**                         # Check online/offline and connection status
 
-sudo journalctl -u datagram.service -f   # View live logs
+**sudo journalctl -u datagram.service -f**   # View live logs
 
-sudo bash datagram-installer.sh --uninstall  # Uninstall all components
+**sudo bash datagram-installer.sh --uninstall**  # Uninstall all components
 
 Ayrıca direk pc üzerinden de aşağıdaki linkten indirebilirsiniz.
 
-https://dashboard.datagram.network/#nodeOperator
+**https://dashboard.datagram.network/#nodeOperator**
 
 
 
