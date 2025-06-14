@@ -29,11 +29,16 @@ sudo bash datagram-installer.sh
 ```
 Burada size key soracak onu girdikten sonra enter deyin. Datagram servis dosyası arka planda çalışacak.
 
-**  restart-datagram                         # Restart service
-  status-datagram                          # Check online/offline and connection status
-  sudo journalctl -u datagram.service -f   # View live logs
-  sudo bash datagram-installer.sh --uninstall  # Uninstall all components
-**
+restart-datagram                         # Restart service
+
+status-datagram                          # Check online/offline and connection status
+
+sudo journalctl -u datagram.service -f   # View live logs
+
+sudo bash datagram-installer.sh --uninstall  # Uninstall all components
+
+Ayrıca direk pc üzerinden de aşağıdaki linkten indirebilirsiniz.
+https://dashboard.datagram.network/#nodeOperator
 --------------------------------------------------
 ## Create Folder Datagram ##
   1. Create Folder Datagram- Klasör oluşturuyoruz.
