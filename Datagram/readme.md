@@ -11,7 +11,8 @@
 
 
 
-İlk Yöntem
+### Servis olarak çalıştırmak
+
 ```
 mkdir datagram
 ```
@@ -38,7 +39,11 @@ sudo journalctl -u datagram.service -f   # View live logs
 sudo bash datagram-installer.sh --uninstall  # Uninstall all components
 
 Ayrıca direk pc üzerinden de aşağıdaki linkten indirebilirsiniz.
+
 https://dashboard.datagram.network/#nodeOperator
+
+
+
 --------------------------------------------------
 ## Create Folder Datagram ##
   1. Create Folder Datagram- Klasör oluşturuyoruz.
