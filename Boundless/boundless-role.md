@@ -78,7 +78,9 @@ nano .env.base
 ```
 ![image](https://github.com/user-attachments/assets/3b9da608-6f74-4c1f-8715-33300be91072)
 
-Resimdeki gibi olacak bu şekilde kaydedin. Alchemy üzerinden Base mainnet rpc alın ve cüzdanınızın private keyini alıp aşağıdaki şekilde env dosyasını değiştirin
+- Resimdeki gibi olacak bu şekilde kaydedin.
+- Alchemy üzerinden Base mainnet rpc alın.
+- Cüzdanınızın private keyini alıp aşağıdaki şekilde env dosyasını değiştirin ve kaydedin.
 
 ```
 # Base contract addresses
@@ -122,7 +124,7 @@ boundless \
 
 
 
-### Dev Rolü için aşağıdaki kodu çalıştırın ( cüzdanınızda 0.0001 eth olsun daha az da olabilir ama ben böyle yaptım )
+### Dev Rolü için aşağıdaki kodu çalıştırın ( cüzdanınızda 0.000001 eth olsun daha az da olabilir ama ben böyle yaptım )
 
 ```
 boundless \
@@ -132,7 +134,7 @@ boundless \
   --set-verifier-address 0x8C5a8b5cC272Fe2b74D18843CF9C3aCBc952a760 \
   --verifier-router-address 0x0b144e07a0826182b6b59788c34b32bfa86fb711 \
   --order-stream-url "https://base-mainnet.beboundless.xyz/" \
-  account deposit 0.0001
+  account deposit 0.000001
 
 ```
 
