@@ -21,7 +21,7 @@
 ### Kurulum
 
 ```
-apt update && apt install -y curl sudo apt install -y curl git build-essential cmake protobuf-compiler
+apt update
 ```
 
 ```
