@@ -29,7 +29,7 @@ sudo apt install -y curl git build-essential cmake protobuf-compiler
 ```
 
 ```
-screen - S boundless
+screen -S boundless
 ```
 
 ```
