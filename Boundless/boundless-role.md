@@ -29,6 +29,10 @@ sudo apt install -y curl git build-essential cmake protobuf-compiler
 ```
 
 ```
+screen - S boundless
+```
+
+```
 git clone https://github.com/boundless-xyz/boundless
 ```
 ```
