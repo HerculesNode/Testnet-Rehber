@@ -155,5 +155,11 @@ boundless \
 ![image](https://github.com/user-attachments/assets/1aa0c583-cb54-43a5-9137-064753492092)
 
 
+- başarılı ise roller bu şekilde gözükecektir.
+
+![image](https://github.com/user-attachments/assets/0d1b345b-0944-43be-8e1a-bb19f704f045)
+
+
+
 Rehber için https://github.com/Himess Adresinden destek alınmıştır.  
 
