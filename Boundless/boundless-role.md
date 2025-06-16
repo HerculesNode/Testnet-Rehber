@@ -72,6 +72,12 @@ echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
+### CLI Kurulumu
+
+```
+cargo install --locked boundless-cli
+```
+
 ### Env Ayarları
 ```
 nano .env.base
