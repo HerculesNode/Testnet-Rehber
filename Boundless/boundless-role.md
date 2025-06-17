@@ -8,6 +8,8 @@
 
 ## Boundless Dev ve Prove Rolü alma rehberi ( Gerekli şeyler ) Buradaki işlemler Sözleşme ile etkileşime girmek için Node çalıştırmak için değildir !
 
+## 1 usdc ile olduğunu da belirttiler isterseniz aşağıda 1 usdc ile deneyebilirsiniz olmaz ise 10 usdc deneyin
+
   1. işlemler Base mainnet üzerinde yapılmaktadır.
   2. Hesabınızda base ağında 10 USDC ve azıcık eth olması gerekiyor. 
   3. Discord hesabınızın 6 aydan eski olması gerekiyor.
@@ -109,7 +111,8 @@ source .env.base
 
 - Hesabınıza 10 usdc gönderin ve eser miktarda eth olsun 2-3$ yeter
 
-### Prover Rolü için aşağıdaki kodu çalıştırın  ( cüzdanınızda 10 usdc olsun )
+### Prover Rolü için aşağıdaki kodu çalıştırın  ( cüzdanınızda 10 usdc olsun ) 
+### ( 1 usdc ile denemek istiyorsanız burayı düzeltin account deposit-stake 1 )
 
 ```
 boundless \
