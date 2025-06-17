@@ -112,7 +112,7 @@ source .env.base
 - Hesabınıza 10 usdc gönderin ve eser miktarda eth olsun 2-3$ yeter
 
 ### Prover Rolü için aşağıdaki kodu çalıştırın  ( cüzdanınızda 10 usdc olsun ) 
-### ( 1 usdc ile denemek istiyorsanız burayı düzeltin account deposit-stake 1 )
+### ( 1 usdc ile denemek istiyorsanız burayı düzeltin =  `account deposit-stake 1` )
 
 ```
 boundless \
