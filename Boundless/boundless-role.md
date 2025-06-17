@@ -8,7 +8,7 @@
 
 ## Boundless Dev ve Prove Rolü alma rehberi ( Gerekli şeyler ) Buradaki işlemler Sözleşme ile etkileşime girmek için Node çalıştırmak için değildir !
 
-## deposit 1 usdc ile olduğunu da belirttiler isterseniz aşağıda 1 usdc ile deneyebilirsiniz olmaz ise 10 usdc deneyin
+## deposit 1 usdc ile olduğunu da belirttiler isterseniz aşağıda 1 usdc ile deneyebilirsiniz olmaz ise 10 usdc deneyin. Fakat prover Node için 10 usdc şart olabilir net bilgi yok !!
 
   1. işlemler Base mainnet üzerinde yapılmaktadır.
   2. Hesabınızda base ağında 10 USDC ve azıcık eth olması gerekiyor. 
