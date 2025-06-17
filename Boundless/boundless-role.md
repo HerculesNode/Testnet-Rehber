@@ -130,7 +130,7 @@ boundless \
 
 
 
-### Dev Rolü için aşağıdaki kodu çalıştırın ( cüzdanınızda 0.000001 eth olsun daha az da olabilir ama ben böyle yaptım )
+### Dev Rolü için aşağıdaki kodu çalıştırın ( cüzdanınızda 0.000001 eth olsun. Ben 0.0001 yaptım daha düşükte yapabilirsiniz )
 
 ```
 boundless \
