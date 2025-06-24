@@ -50,6 +50,9 @@ curl https://cli.nexus.xyz/ | sh
 ```
 source /root/.profile
 ```
+
+- Buradan id alın aşağıda xxx olan yere idi yazıp komutu çalıştırın : https://app.nexus.xyz/nodes
+
 ```
 nexus-network start --node-id  xxxxx
 ```
