@@ -63,9 +63,9 @@ nexus-network start --node-id  xxxxx
 ```
 sudo nano /etc/docker/daemon.json
 ```
-```
-JSON
 
+
+```
 {
   "dns": ["8.8.8.8", "8.8.4.4"]
 }
