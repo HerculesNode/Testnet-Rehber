@@ -50,6 +50,7 @@ nexus-network start --node-id  xxxxx
 ```
 
 
+![image](https://github.com/user-attachments/assets/c4b0a04f-e0e5-4ea8-bde9-55c6126f5c25)
 
 
 
