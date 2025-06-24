@@ -43,7 +43,7 @@ docker build -t nexus-debug .
 docker run -it --rm nexus-debug
 ```
 ### XXX yazan yere siteden aldığınız CLI numarasını yazıyorsunuz.
-```
+
 ```
 curl https://cli.nexus.xyz/ | sh
 ```
