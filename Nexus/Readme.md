@@ -3,7 +3,7 @@
 ### Linkler
  * [Hercules Telegram](https://t.me/HerculesNodeTG)
  * [Hercules Twitter](https://twitter.com/Herculesnode)
- * [Nexus Twitter(https://x.com/NexusLabs)
+ * [Nexus Twitter](https://x.com/NexusLabs)
 
 
 ```
@@ -76,4 +76,4 @@ docker run -it --rm nexus-debug
 ```
 nexus-network start --node-id  xxxxx
 ```
-Hazırlayan :  * [Twitter(https://x.com/onchainakira)
+Hazırlayan :  * [Twitter](https://x.com/onchainakira)
