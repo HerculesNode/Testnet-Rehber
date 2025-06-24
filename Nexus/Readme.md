@@ -15,9 +15,7 @@ mkdir nexus
 ```
 cd nexus
 ```
-```
-curl https://cli.nexus.xyz/ | sh
-```
+
 ### Ubuntu 24 olanlar direk nexus-network start --node-id xxx ile başlayabilir.
 ```
 nano Dockerfile
@@ -45,6 +43,13 @@ docker build -t nexus-debug .
 docker run -it --rm nexus-debug
 ```
 ### XXX yazan yere siteden aldığınız CLI numarasını yazıyorsunuz.
+```
+```
+curl https://cli.nexus.xyz/ | sh
+```
+```
+source /root/.profile
+```
 ```
 nexus-network start --node-id  xxxxx
 ```
@@ -75,6 +80,27 @@ docker build --network=host -t nexus-debug .
 docker run -it --rm nexus-debug
 ```
 ```
+curl https://cli.nexus.xyz/ | sh
+```
+```
+source /root/.profile
+```
+```
 nexus-network start --node-id  xxxxx
 ```
 Hazırlayan :  * [Twitter](https://x.com/onchainakira)
+
+
+### Eğer bunlara rağmen portalda gözükmüyorsa aşağıdaki kodları uygulayın.
+```
+nexus-network register-user --wallet-address <your-wallet-address>
+```
+```
+nexus-network register-node
+```
+```
+nexus-network start
+```
+
+
+
