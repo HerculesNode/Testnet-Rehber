@@ -13,16 +13,7 @@
 | **Disk**    | 50 GB+ NVMe SSD      |  
 | **Network** | 100 Mbps (1 Gbps+)   |  
 
----
 
-## ☁️ Recommended VPS Providers  
-
-| Provider     | Link                                                                 | Features          |  
-|--------------|----------------------------------------------------------------------|-------------------|  
-| **Contabo**  | [Contabo](https://www.dpbolvw.net/click-101330552-12454592)          | Cheap / PayPal    |  
-| **NetCup**   | [NetCup](https://www.netcup.com/en/?ref=261820)                      | Cheap / PayPal    |  
-
----
 
 ## 🌍 Official Links  
 
@@ -147,3 +138,4 @@ cat ~/mawari/flohive-cache.json
 ---
 
 ✨ Congratulations! Your Mawari Node is now up & running 🎉
+
