@@ -1,6 +1,9 @@
 
 ### Republic Validatör Node kurulum rehberi
 
+<img width="703" height="234" alt="image" src="https://github.com/user-attachments/assets/be898df7-7a36-4c95-ae17-0df293ad3d92" />
+
+
 ## 🟢 Puan sistemi
 https://points.republicai.io/?ref=ED6928
 
@@ -246,3 +249,4 @@ sudo systemctl disable republicd.service
 sudo rm /etc/systemd/system/republicd.service
 rm -rf $HOME/.republic
 ```
+
