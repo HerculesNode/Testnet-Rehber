@@ -226,6 +226,20 @@ republicd tx slashing unjail \
 -y
 ```
 
+## 🟢 Güncel peer ekleme
+
+```shell
+URL="https://rpc.republicai.io/net_info" && \
+PEERS=$(curl -s $URL | jq -r '.result.peers[] 
+  | select(.remote_ip | test("^[0-9]{1,3}(\\.[0-9]{1,3}){3}$")) 
+  | "\(.node_info.id)@\(.remote_ip):" + (.node_info.listen_addr | capture(":(?<port>[0-9]+)$").port)' \
+  | paste -sd "," -) && \
+sed -i "s|^persistent_peers *=.*|persistent_peers = \"$PEERS\"|" $HOME/.republicd/config/config.toml && \
+sudo systemctl daemon-reload && \
+sudo systemctl restart republicd
+
+```
+
 ## 🟢 VAlidatör bilgilerine bakma duruma bakma
 
 ```shell
@@ -249,4 +263,5 @@ sudo systemctl disable republicd.service
 sudo rm /etc/systemd/system/republicd.service
 rm -rf $HOME/.republic
 ```
+
 
