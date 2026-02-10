@@ -246,6 +246,18 @@ sudo systemctl restart republicd
 republicd q staking validator $(republicd keys show $REPUBLIC_WALLET --bech val -a)
 ```
 
+## 🟢 RPC üzerinden peer sayısı +10 üzeri olması iyi
+
+```shell
+curl -s http://127.0.0.1:${REPUBLIC_PORT}657/net_info | jq '.result.n_peers'
+```
+
+## 🟢 Peer Listesi
+
+```shell
+curl -s http://127.0.0.1:{REPUBLIC_PORT}/net_info | jq '.result.peers[] | {id: .node_info.id, ip: .remote_ip, port: .node_info.listen_addr}'
+```
+
 
 ## 🟢 Bakiyeye bakma
 
@@ -263,6 +275,7 @@ sudo systemctl disable republicd.service
 sudo rm /etc/systemd/system/republicd.service
 rm -rf $HOME/.republic
 ```
+
 
 
 
