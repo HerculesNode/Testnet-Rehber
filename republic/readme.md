@@ -45,13 +45,7 @@ source $HOME/.bash_profile
 
 ## 🟢 Dosyaları indirin
 ```shell
-VERSION="v0.1.0"
-mkdir -p $HOME/.republic/cosmovisor/genesis/bin
-curl -L "https://media.githubusercontent.com/media/RepublicAI/networks/main/testnet/releases/${VERSION}/republicd-linux-amd64" -o republicd
-chmod +x republicd
-mv republicd $HOME/.republic/cosmovisor/genesis/bin/
-ln -sfn $HOME/.republic/cosmovisor/genesis $HOME/.republic/cosmovisor/current
-sudo cp $HOME/.republic/cosmovisor/genesis/bin/republicd /usr/local/bin/
+VERSION="v0.1.0" && mkdir -p $HOME/.republic/cosmovisor/genesis/bin && curl -L "https://media.githubusercontent.com/media/RepublicAI/networks/main/testnet/releases/${VERSION}/republicd-linux-amd64" -o republicd && chmod +x republicd && mv republicd $HOME/.republic/cosmovisor/genesis/bin/ && ln -sfn $HOME/.republic/cosmovisor/genesis $HOME/.republic/cosmovisor/current && sudo cp $HOME/.republic/cosmovisor/genesis/bin/republicd /usr/local/bin/
 ```
 
 ## 🟢 init işlemini yapalım ( Nodeisminiz yazan yere kendi node isminizi yazın yoksa nodeismi olarak kalır :)
@@ -264,6 +258,7 @@ sudo systemctl disable republicd.service
 sudo rm /etc/systemd/system/republicd.service
 rm -rf $HOME/.republic
 ```
+
 
 
 
