@@ -146,6 +146,11 @@ journalctl -u republicd -f
 republicd status --node tcp://localhost:${REPUBLIC_PORT}657
 ```
 
+## 🟢 Güncelleme v0.2.1
+```shell
+sudo systemctl stop republicd && VERSION="v0.2.1" && mkdir -p $HOME/.republic/cosmovisor/upgrades/$VERSION/bin && curl -L https://github.com/RepublicAI/networks/releases/download/${VERSION}/republicd-linux-amd64 -o republicd && chmod +x republicd && mv republicd $HOME/.republic/cosmovisor/upgrades/$VERSION/bin/ && sudo systemctl start republicd
+```
+
 ## 🟢 Cüzdan oluşturalım ( size bir key verecek bunu saklayın daha sonra cüzdan adresinize faucet üzerinden token alın )
 
 ```shell
@@ -258,6 +263,7 @@ sudo systemctl disable republicd.service
 sudo rm /etc/systemd/system/republicd.service
 rm -rf $HOME/.republic
 ```
+
 
 
 
