@@ -226,6 +226,20 @@ republicd tx slashing unjail \
 -y
 ```
 
+## 🟢 ödül çek
+
+```shell
+republicd tx distribution withdraw-rewards VALLOPER-ADRESS \
+--from $REPUBLIC_WALLET \
+--commission \
+--chain-id raitestnet_77701-1 \
+--gas auto \
+--gas-adjustment 1.5 \
+--gas-prices "1000000000arai" \
+--node tcp://localhost:${REPUBLIC_PORT}657 \
+-y
+```
+
 ## 🟢 Güncel peer ekleme
 
 ```shell
@@ -275,6 +289,7 @@ sudo systemctl disable republicd.service
 sudo rm /etc/systemd/system/republicd.service
 rm -rf $HOME/.republic
 ```
+
 
 
 
