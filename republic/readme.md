@@ -146,12 +146,14 @@ journalctl -u republicd -f
 republicd status --node tcp://localhost:${REPUBLIC_PORT}657
 ```
 
-## 🟢 Güncelleme v0.2.1
+## 🟢 Güncelleme v0.2.1 ( tek tek girin kodları )
 ```shell
 sudo systemctl stop republicd
 
 wget https://github.com/RepublicAI/networks/releases/download/v0.2.1/republicd-linux-amd64 -O republicd
+
 chmod +x republicd
+
 sudo mv republicd /usr/local/bin/
 
 sudo systemctl start republicd
@@ -297,6 +299,7 @@ sudo systemctl disable republicd.service
 sudo rm /etc/systemd/system/republicd.service
 rm -rf $HOME/.republic
 ```
+
 
 
 
